@@ -4,3 +4,5 @@
 .owner-maintenance{display:block;margin-top:18px;padding:9px 12px;border:1px solid var(--line);border-radius:7px;text-align:center;text-decoration:none;color:var(--ink);font-size:12px}
 
 .abstract{margin:0 0 14px;background:#f7f9f2;padding:12px 14px;border-radius:6px}.abstract summary{cursor:pointer;font-size:10px;color:#627b53;font-weight:600;letter-spacing:.5px}.abstract p{margin:9px 0 0!important;font-size:12px;line-height:1.9}.abstract-full{background:#f4f7ee;padding:1px 18px 12px;border-radius:8px}.abstract-full p{font-size:14px;line-height:1.9}
+
+.citation{color:#4f752f;text-decoration:underline;text-underline-offset:3px}.section-references{margin-top:45px;border-top:1px solid var(--line);padding-top:18px}.reference-list{padding-left:22px;font-size:13px;line-height:1.9;overflow-wrap:anywhere}.reference-list li{padding:12px 8px;scroll-margin-top:24px}.reference-list li:target{background:#e8efdb;border-radius:5px}.reference-backlinks{font-size:11px;color:var(--muted);margin-top:5px}.reference-backlinks a{margin-right:10px}

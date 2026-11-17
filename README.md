@@ -61,3 +61,12 @@ GitHub Pages 官方说明：https://docs.github.com/en/pages/getting-started-wit
 本项目的Codex维护任务每天北京时间23:00执行，寻找并核验优质Nexus文献、案例、数据和政策，通过后自动提交和发布。GitHub候选检索工作流每天22:30预先抓取文献元数据，两者调度时间可能延迟；正式收录由维护任务核实来源和相关性。
 
 每篇文献卡片默认展开摘要，可点击摘要标题收起。现有摘要为基于课题组材料的中文概述，明确标注，与出版商原文摘要区分；新增记录需提供abstract{text,kind,source}。期刊优先列表在config/journals.json；此列表用于来源优先级，不声称固定分区或影响因子。
+
+
+## 本地文档同步与引用
+
+每日23:00任务同时执行 `python3 scripts/sync_local_documents.py`，扫描项目上一级研究目录中的Word、Excel、PDF等源文件，以SHA-256检测内容更新，忽略网站目录及Word锁文件。source-state.json记录同步基线；非综述文件变化进入pendingFiles，由维护任务整理后清除。删除不直接导致线上资料删除。原始文档只读。
+
+综述导入根据Word编号层级识别章和节，将有标题或无标题的文末连续APA书目提取至dist/references.json。正文作者—年份引用链接至本节参考文献，references.html提供全局书目及引用位置回链。同作者同年条目仅在研究对象明确时区分，否则记录citation-audit.json；正文引文在书目缺失时不臆造对应。
+
+更新综述后运行 `python3 scripts/sync_local_documents.py --force`、`python3 -m unittest discover -s tests`、`python3 scripts/build_pages.py`、`python3 scripts/validate.py`。云端构建使用已同步JSON，不直接读取本地Word。

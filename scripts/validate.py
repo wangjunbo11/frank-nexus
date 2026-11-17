@@ -30,3 +30,19 @@ for x in a:
         assert all(x.get('analysis',{}).get(k) for k in ('background','methods','conclusions','implications')),x['id']
     if '政策报告' in x['categories']:assert x.get('scope') in ('全球政策','国内政策'),x['id']
 print('PASS:',len(html_files),'HTML pages with valid local links; literature analyses and policy scopes present.')
+
+references=json.loads((root/'references.json').read_text());refmap={r['id']:r for r in references}
+reviews=json.loads((root/'reviews.json').read_text())
+sections={s['id']:s for p in reviews for c in p['chapters'] for s in c['sections']}
+for sid,section in sections.items():
+    assert all(r in refmap for r in section.get('referenceIds',[])),sid
+    for block in section['blocks']:
+        if block['type']=='paragraph':
+            for r in references:assert r['text']!=block['text'],('Bibliography leaked into body',sid)
+            for c in block.get('citations',[]):
+                assert c['referenceId'] in section['referenceIds']
+                assert sid in refmap[c['referenceId']]['usedIn']
+                assert 0<=c['start']<c['end']<=len(block['text'])
+for r in references:
+    for sid in r['usedIn']:assert r['id'] in sections[sid]['referenceIds']
+print('PASS: separated bibliography and bidirectional section citation associations.')
