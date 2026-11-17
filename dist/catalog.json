@@ -1,0 +1,1160 @@
+[
+  {
+    "id": "L001",
+    "title": "Managing the food‒energy‒water nexus towards promoting holistic progress of the Sustainable Development Goals in China",
+    "year": 2026,
+    "url": "https://doi.org/10.1016/j.geosus.2026.100486",
+    "journal": "Geography and Sustainability",
+    "categories": [
+      "前沿文献"
+    ],
+    "tags": [
+      "Nexus",
+      "农食系统",
+      "粮食安全"
+    ],
+    "summary": "以中国省际隐含资源流动为切入点，结合投入产出、环境效率和空间分析讨论资源配置与SDGs的协同与权衡。",
+    "method": "",
+    "status": "待官网核验",
+    "source": "前沿文献汇总/前沿文献文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "省际贸易连接了资源供应与消费地区，但经济收益与环境成本未必落在同一地区。研究将中国FEW资源流动与SDGs共同分析。",
+      "methods": "结合多区域投入产出、乘法型环境DEA、SDG测度、空间杜宾模型和网络分析，依次识别隐含资源流、环境效率、空间关联与干预重点。",
+      "conclusions": "资源流动存在明显空间差异。粮食和能源流动较易与SDGs正向关联，水资源及其交互项更易出现权衡；资源供应地区可能承担较高环境负担。",
+      "implications": "可将资源核算与区域补偿、环境成本内部化联系起来。MRIO的隐含流不同于实际运输量，空间关联结果也不直接构成政策因果效应。"
+    }
+  },
+  {
+    "id": "L002",
+    "title": "Multiscale assessment of transboundary water-food-energy nexus under climate change in Irtysh River Basin.",
+    "year": 2026,
+    "url": "https://doi.org/10.1016/j.isci.2026.117374",
+    "journal": "iScience",
+    "categories": [
+      "前沿文献"
+    ],
+    "tags": [
+      "Nexus",
+      "气候变化",
+      "农食系统",
+      "粮食安全"
+    ],
+    "summary": "在额尔齐斯河流域连接气候、水文、灌溉和水电情景，考察跨尺度资源约束与上下游差异。",
+    "method": "",
+    "status": "待官网核验",
+    "source": "前沿文献汇总/前沿文献文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "跨境流域中的气候冲击会同时改变灌溉与水电条件；单一行政区或单一部门分析可能遗漏上下游影响。",
+      "methods": "以额尔齐斯河流域为对象，将气候驱动的水文变化与灌溉需求、农业生产和水电潜力连接，开展多尺度情景分析。",
+      "conclusions": "不同尺度和上下游地区面临的资源约束与适应能力并不一致，局部改善不能直接推广为整个流域的共同收益。",
+      "implications": "研究边界应沿河流和资源联系确定，并保持气候、水文与经济数据的时空一致性；情景结果需结合模型假设解释。"
+    }
+  },
+  {
+    "id": "L003",
+    "title": "The global potential of aquavoltaics for power generation and offsetting the carbon footprint of freshwater aquaculture.",
+    "year": 2026,
+    "url": "https://doi.org/10.1038/s43016-026-01446-6",
+    "journal": "Nature Food",
+    "categories": [
+      "前沿文献"
+    ],
+    "tags": [
+      "Nexus",
+      "农食系统"
+    ],
+    "summary": "评估淡水养殖与光伏共址的发电及碳减排潜力，关注空间复用与技术适用条件。",
+    "method": "",
+    "status": "待官网核验",
+    "source": "前沿文献汇总/前沿文献文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "淡水养殖和光伏发电可能共享水面空间，但其技术协同、生态约束与经济收益需要联合评估。",
+      "methods": "利用卫星遥感识别相关生产空间，并结合光伏系统模拟评估全球渔光互补的发电潜力及抵消养殖碳足迹的可能性。",
+      "conclusions": "研究展示同一空间兼顾能源和食物生产的潜在协同；这种协同仍受到投资成本、生产效率、生态条件和市场制度约束。",
+      "implications": "可从空间匹配延伸到设备投资与养殖经营决策分析。技术发电潜力不能直接解释为可落地装机或社会净收益。"
+    }
+  },
+  {
+    "id": "L004",
+    "title": "Dynamic Bayesian modeling and optimization of agricultural water–energy–food–carbon systems under resource constraints: Evidence from the North China Plain",
+    "year": 2026,
+    "url": "https://doi.org/10.1016/j.agwat.2026.110748",
+    "journal": "Agricultural Water Management",
+    "categories": [
+      "前沿文献"
+    ],
+    "tags": [
+      "Nexus",
+      "农食系统",
+      "粮食安全"
+    ],
+    "summary": "通过动态贝叶斯模型描述华北平原农业水—能源—粮食—碳系统的条件依赖与情景响应。",
+    "method": "",
+    "status": "待官网核验",
+    "source": "前沿文献汇总/前沿文献文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "农业水、能源、粮食和碳系统具有非线性动态关联，静态评价难以描述资源约束下的调整过程。",
+      "methods": "使用华北平原492个县2001—2020年数据，结合动态贝叶斯网络与贝叶斯神经网络，通过情景扰动分析潜在调整方向。",
+      "conclusions": "模型刻画了系统的时间依赖及地区差异，并为资源约束下的组合优化提供分析路径。",
+      "implications": "适合用于动态风险与预测不确定性分析；条件依赖不等于因果机制，政策解释需要额外识别设计。"
+    }
+  },
+  {
+    "id": "L005",
+    "title": "SSP-based multi-objective crop and irrigation allocation for sustainable water management in the Gorganroud watershed, Iran.",
+    "year": 2026,
+    "url": "https://doi.org/10.1016/j.agwat.2026.110511",
+    "journal": "Agricultural Water Management",
+    "categories": [
+      "前沿文献"
+    ],
+    "tags": [
+      "Nexus",
+      "农食系统",
+      "粮食安全"
+    ],
+    "summary": "把共享社会经济路径与作物、灌溉多目标配置相结合，比较不同用水管理情景。",
+    "method": "",
+    "status": "待官网核验",
+    "source": "前沿文献汇总/前沿文献文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "作物与灌溉配置同时涉及利润、农业就业和环境目标，不同发展偏好可能对应不同方案。",
+      "methods": "以伊朗Gorganroud流域为例，在土地、水、粮食与环境约束下构建多目标配置模型，利用SSP情景表达发展目标和政策偏好。",
+      "conclusions": "相较于受约束的利润最大化基准，综合目标情景可降低部分资源足迹和碳排放、改善就业，同时承担一定利润损失。",
+      "implications": "应报告目标权重与帕累托权衡，说明谁获得收益、谁承担成本；不存在脱离政策偏好的唯一最优配置。"
+    }
+  },
+  {
+    "id": "L006",
+    "title": "Coupling irrigation technology upgrades with targeted expansion enables water-efficient and climate-resilient cereal production in China",
+    "year": 2026,
+    "url": "https://doi.org/10.1038/s43016-026-01455-5",
+    "journal": "Nature Food",
+    "categories": [
+      "前沿文献"
+    ],
+    "tags": [
+      "Nexus",
+      "气候变化",
+      "农食系统",
+      "粮食安全"
+    ],
+    "summary": "研究灌溉技术升级与针对性扩张的组合，讨论粮食生产、节水和气候韧性。",
+    "method": "",
+    "status": "待官网核验",
+    "source": "前沿文献汇总/前沿文献文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "单独推广灌溉技术能否兼顾长期节水与气候变化下的粮食稳产，是农业适应的重要问题。",
+      "methods": "结合中国县域农业统计、农户调查和田间试验，评估既有技术升级，并以情景模拟和投资优化比较技术升级与针对性扩张的组合。",
+      "conclusions": "历史灌溉升级可以减少部分农业用水，但沿用现有趋势不足以同时满足长期节水与稳产要求；区域化组合可能改善结果。",
+      "implications": "将“在哪里投资、采用何种技术、是否扩张”共同纳入决策，并区分技术模拟的潜在收益与实际政策效果。"
+    }
+  },
+  {
+    "id": "L007",
+    "title": "Climate-driven water stress in the United States is seasonal, regional, and shaped by adaptation.",
+    "year": 2026,
+    "url": "https://doi.org/10.1038/s41467-026-78688-2",
+    "journal": "Nature Communications",
+    "categories": [
+      "前沿文献"
+    ],
+    "tags": [
+      "Nexus",
+      "气候变化"
+    ],
+    "summary": "从季节、区域与适应行为出发理解美国气候驱动的水资源压力。",
+    "method": "",
+    "status": "待官网核验",
+    "source": "前沿文献汇总/前沿文献文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "年度平均水压力可能遮蔽季节性短缺、地区差异及适应行为对风险的改变。",
+      "methods": "现有整理材料指出，研究以美国为对象，从季节、区域与适应角度评估气候驱动的水压力；材料未记录可复述的具体模型与参数。",
+      "conclusions": "题名及现有导读支持的核心判断是：水压力具有季节和区域差异，并受到适应方式影响；此处不扩展为具体效应量。",
+      "implications": "研究水压力时应明确季节窗口、区域水文条件与适应成本，避免以全国年度均值替代局部风险。"
+    }
+  },
+  {
+    "id": "L008",
+    "title": "Spatial-temporal evolution of blue water footprint of crop production and analysis of water-saving potential in the Tarim River Basin.",
+    "year": 2026,
+    "url": "https://doi.org/10.1007/s13201-026-02992-x",
+    "journal": "Applied Water Science",
+    "categories": [
+      "前沿文献"
+    ],
+    "tags": [
+      "Nexus",
+      "农食系统",
+      "粮食安全"
+    ],
+    "summary": "核算塔里木河流域作物蓝水足迹的时空变化，识别潜在节水空间。",
+    "method": "",
+    "status": "待官网核验",
+    "source": "前沿文献汇总/前沿文献文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "干旱流域农业既需要保障生产，也受到灌溉水资源约束；作物结构会影响节水空间。",
+      "methods": "以塔里木河流域小麦、玉米、棉花与水稻为对象，结合蓝水足迹核算和情景模拟比较种植结构及灌溉技术方案。",
+      "conclusions": "特定情景下，作物结构调整与滴灌推广能够降低所测度的灌溉需水，结果依赖技术参数与政策目标。",
+      "implications": "同时比较产出、农户收益与用水变化，并区分模型需水减少、实际取水减少和流域真实耗水减少。"
+    }
+  },
+  {
+    "id": "L009",
+    "title": "The paradox of irrigation efficiency.",
+    "year": 2026,
+    "url": "https://doi.org/10.1126/science.aat9314",
+    "journal": "Science",
+    "categories": [
+      "前沿文献"
+    ],
+    "tags": [
+      "Nexus",
+      "农食系统"
+    ],
+    "summary": "讨论灌溉效率提升与总耗水量之间的差异：成本下降、面积扩张和回归水变化可能抵消工程节水。",
+    "method": "",
+    "status": "待官网核验",
+    "source": "前沿文献汇总/前沿文献文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。原清单标为2026年，年份疑似错误，需核对。",
+    "analysis": {
+      "background": "灌溉效率提高常被当作节水证据，但田间少取水可能意味着减少回归水，也可能诱发种植扩张。",
+      "methods": "文章从灌溉水量平衡与经济行为机制讨论效率悖论，区分取水、消耗性用水和可回收回归水。",
+      "conclusions": "技术效率提升不能自动保证流域总量节水；面积、强度和作物选择变化可能抵消部分工程节水。",
+      "implications": "节水评价应同时报告单位面积用水、总取水、耗水和回归水，并把技术升级与水权、配额和总量管理结合。"
+    }
+  },
+  {
+    "id": "L010",
+    "title": "Do grid-connected solar irrigation pumps help promote groundwater sustainability?: Evidence from India.",
+    "year": 2026,
+    "url": "https://doi.org/10.1016/j.nexus.2026.100746",
+    "journal": "Energy Nexus",
+    "categories": [
+      "前沿文献"
+    ],
+    "tags": [
+      "Nexus",
+      "农食系统"
+    ],
+    "summary": "考察印度并网太阳能灌溉泵与地下水可持续性的关系，连接能源激励和抽水行为。",
+    "method": "",
+    "status": "待官网核验",
+    "source": "前沿文献汇总/前沿文献文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "太阳能水泵降低抽水边际成本，并网售电激励是否能改变取水行为取决于当地水文和经营条件。",
+      "methods": "利用印度古吉拉特邦农户调查，采用倾向得分匹配比较并网太阳能灌溉农户与传统灌溉农户，并区分含水层条件。",
+      "conclusions": "冲积含水层占主导的Anand地区出现较低灌溉施水量，硬岩含水层占主导的Botad地区未发现同样显著差异。",
+      "implications": "能源政策应与地下水制度和售电价格共同设计。匹配主要处理可观测差异，不能自动排除未观测选择偏差。"
+    }
+  },
+  {
+    "id": "L011",
+    "title": "Hydroeconomic optimization of water management in the Yellow River Basin: Dealing with scarcity.",
+    "year": 2026,
+    "url": "https://doi.org/10.5194/hess-30-2161-2026",
+    "journal": "Hydrology and Earth System Sciences",
+    "categories": [
+      "前沿文献",
+      "研究方法"
+    ],
+    "tags": [
+      "Nexus"
+    ],
+    "summary": "将黄河流域水文网络与各部门经济收益、工程及管理约束结合，比较水资源配置与影子价值。",
+    "method": "水文经济优化模型",
+    "status": "待官网核验",
+    "source": "前沿文献汇总/前沿文献文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "水文学约束决定配置是否可行，经济收益与制度规则决定稀缺水资源如何在部门间分配。",
+      "methods": "构建黄河流域节点—连接线水文经济优化模型，使用月度水文序列，结合PMP农业校准与非线性规划求解，比较不同水文条件。",
+      "conclusions": "模型在水量、工程和政策约束下形成部门配置、经济表现及边际水价值等输出，展示水资源短缺的经济含义。",
+      "implications": "影子价格是放宽约束的模型边际价值，不能直接等同实际水价。应用时需检查收益函数、生态约束及参数敏感性。"
+    }
+  },
+  {
+    "id": "L012",
+    "title": "The impact of agricultural water pricing institution on the water rebound effect in western China – based on the policy of comprehensive agricultural water price reform.",
+    "year": 2026,
+    "url": "https://doi.org/10.1080/07900627.2026.2676859",
+    "journal": "International Journal of Water Resources Development",
+    "categories": [
+      "前沿文献"
+    ],
+    "tags": [
+      "Nexus",
+      "农食系统"
+    ],
+    "summary": "考察农业水价制度与用水反弹，关注节水激励和实际用水行为之间的关系。",
+    "method": "",
+    "status": "待官网核验",
+    "source": "前沿文献汇总/前沿文献文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "节水技术降低单位用水后，扩大面积或增加种植强度可能引发反弹，需要制度安排把效率收益转化为总量节约。",
+      "methods": "使用1999—2022年面板数据，以双重差分分析农业水价综合改革与中国西部水资源反弹效应，并讨论节水灌溉和节约水量再利用机制。",
+      "conclusions": "现有整理记录的结果表明，改革降低了水资源反弹，作用与节水灌溉推广和限制节水水量无约束再利用有关。",
+      "implications": "政策不应简化为提高水价，应把计量、水权、补贴和奖励共同考虑；因果解释仍需审查平行趋势及改革同期其他变化。"
+    }
+  },
+  {
+    "id": "L013",
+    "title": "Impacts of agrisolar co-location on the food–energy–water nexus and economic security.",
+    "year": 2025,
+    "url": "https://doi.org/10.1038/s41893-025-01546-4",
+    "journal": "Nature Sustainability",
+    "categories": [
+      "前沿文献"
+    ],
+    "tags": [
+      "Nexus",
+      "农食系统",
+      "粮食安全"
+    ],
+    "summary": "结合加州农业区域光伏设施、土地利用和现金流核算，比较食品、能源、水与经济安全。",
+    "method": "",
+    "status": "待官网核验",
+    "source": "前沿文献汇总/前沿文献文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "农业土地转向光伏会增加能源供给，但可能牺牲粮食产出，并改变灌溉需求与土地所有者收益。",
+      "methods": "结合加州中央谷地光伏设施、历史土地利用、农业统计和发电模拟，核算粮食—能源—水影响与长期现金流，并做敏感性分析。",
+      "conclusions": "模型中土地转用增加发电并可能提高所有者收益、减少潜在灌溉需求，同时损失原有作物生产；结果取决于价格与未重新使用节水等假设。",
+      "implications": "应区分农业邻近光伏与板下同时种植的农光互补，分别核算农户和开发商收益；反事实核算不是项目因果评估。"
+    }
+  },
+  {
+    "id": "L014",
+    "title": "Droughts worsen air quality and health by shifting power generation.",
+    "year": 2025,
+    "url": "https://doi.org/10.1038/s41467-025-60090-z",
+    "journal": "Nature Communications",
+    "categories": [
+      "前沿文献"
+    ],
+    "tags": [
+      "Nexus",
+      "气候变化"
+    ],
+    "summary": "以干旱引发的发电结构调整为传导机制，研究水资源冲击如何扩展至空气质量和健康。",
+    "method": "",
+    "status": "待官网核验",
+    "source": "前沿文献汇总/前沿文献文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "干旱的影响可能从水电短缺扩展到替代发电及污染健康损失，单看供电量会遗漏这些成本。",
+      "methods": "现有材料描述了干旱—发电结构调整—空气质量与健康的传导链；未记录可复述的具体估计式，故此处不指定识别方法。",
+      "conclusions": "研究核心结论是干旱可以通过发电结构变化恶化空气质量与健康，体现气候风险的跨部门外部性。",
+      "implications": "气候适应与电力韧性评估应同时计入污染和健康成本，并检验电源组合、跨区交易和冷却技术的调节作用。"
+    }
+  },
+  {
+    "id": "L015",
+    "title": "Spatially explicit temperature optima improve climate impact assessment of global crop productivity.",
+    "year": 2026,
+    "url": "https://doi.org/10.1038/s41467-026-74564-1",
+    "journal": "Nature Communications",
+    "categories": [
+      "前沿文献"
+    ],
+    "tags": [
+      "Nexus",
+      "气候变化",
+      "农食系统",
+      "粮食安全"
+    ],
+    "summary": "刻画主要作物最适温度的空间差异，讨论热适应及气候生产力评估。",
+    "method": "",
+    "status": "待官网核验",
+    "source": "前沿文献汇总/前沿文献文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "全球统一的作物最适温度假设忽略当地热驯化，可能扭曲气候风险和生产力评估。",
+      "methods": "整合多种遥感GPP代理指标与通量观测，拟合温度响应；结合随机森林分析驱动因素，并比较空间显式和统一温度参数下的热风险与生产力。",
+      "conclusions": "同一种作物的最适温度具有显著空间差异，受到温度、水分和辐射等因素影响；纳入空间差异可改进生产力模拟。",
+      "implications": "可构建相对于当地最适温度的热暴露指标，并分析灌溉和农业管理的调节。GPP最适温度不等同于实际产量损失阈值。"
+    }
+  },
+  {
+    "id": "L016",
+    "title": "Options for keeping the food system within environmental limits.",
+    "year": 2018,
+    "url": "https://doi.org/10.1038/s41586-018-0594-0",
+    "journal": "Nature",
+    "categories": [
+      "前沿文献"
+    ],
+    "tags": [
+      "Nexus",
+      "农食系统",
+      "粮食安全"
+    ],
+    "summary": "把全球粮食系统与气候、土地、淡水及氮磷边界联系起来，比较膳食、技术和减损方案。",
+    "method": "",
+    "status": "待官网核验",
+    "source": "前沿文献汇总/前沿文献文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "人口与收入变化推升食物需求，生产和消费同时影响气候、土地、淡水及氮磷循环。",
+      "methods": "建立全球粮食系统环境情景，比较膳食结构调整、农业技术管理改善以及减少食物损失与浪费的单项和组合措施。",
+      "conclusions": "模型显示缺乏缓解措施时环境压力将显著增加；单一措施不足以满足所有资源环境边界，需要组合行动。",
+      "implications": "将粮食安全从单纯增产扩展到营养、需求和供应链效率，并说明环境边界、技术采用和未来需求的情景假设。"
+    }
+  },
+  {
+    "id": "L017",
+    "title": "Integrated analysis of climate change, land-use, energy and water strategies.",
+    "year": 2013,
+    "url": "https://doi.org/10.1038/nclimate1789",
+    "journal": "Nature Climate Change",
+    "categories": [
+      "研究方法"
+    ],
+    "tags": [
+      "Nexus",
+      "气候变化"
+    ],
+    "summary": "连接气候、土地、能源和水资源的部门模型，在一致的情景和边界下比较跨部门政策。",
+    "method": "气候—土地—能源—水资源综合分析",
+    "status": "待官网核验",
+    "source": "研究方法汇总/研究方法文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "单部门规划可能将资源压力转移到其他部门，生物燃料、农业扩张和能源转型尤为如此。",
+      "methods": "CLEWs连接气候、土地、能源和水模型，以共享边界、数据和情景传递需求、资源约束及技术参数，比较综合与分部门分析。",
+      "conclusions": "部门联动能够揭示单部门分析遗漏的竞争与协同，使政策成本和可行性评估更完整。",
+      "implications": "适合把气候冲击嵌入资源约束与技术选择；跨模型数据需保持尺度一致，情景推演不自动刻画市场均衡或政策因果效应。"
+    }
+  },
+  {
+    "id": "L018",
+    "title": "Identifying critical supply chains and final products: An input-output approach to exploring the energy-water-food nexus.",
+    "year": 2018,
+    "url": "https://doi.org/10.1016/j.apenergy.2017.09.069",
+    "journal": "Applied Energy",
+    "categories": [
+      "研究方法"
+    ],
+    "tags": [
+      "Nexus",
+      "农食系统",
+      "粮食安全"
+    ],
+    "summary": "利用MRIO追踪最终消费隐含的跨区域资源足迹，再用SPA分解关键供应链。",
+    "method": "多区域投入产出与结构路径分析",
+    "status": "待官网核验",
+    "source": "研究方法汇总/研究方法文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "消费地的资源使用可能隐藏在异地供应链中，生产端统计难以指出关键产品和干预环节。",
+      "methods": "以英国最终消费为例，利用环境扩展MRIO核算隐含能源、水和粮食投入，再以结构路径分析识别关键产品与供应链，并结合就业及增加值。",
+      "conclusions": "资源压力沿全球生产链分布；最终产品与上游关键路径提供了需求侧和生产侧两类干预位置。",
+      "implications": "可用于贸易和气候风险的跨区足迹追踪。产业核算路径不是实际运输路线，固定投入系数也不能充分反映价格及技术替代。"
+    }
+  },
+  {
+    "id": "L019",
+    "title": "A systematic study of Sustainable Development Goal (SDG) interactions.",
+    "year": 2017,
+    "url": "https://doi.org/10.1002/2017EF000632",
+    "journal": "Earth's Future",
+    "categories": [
+      "研究方法"
+    ],
+    "tags": [
+      "Nexus"
+    ],
+    "summary": "利用SDG指标间的秩相关识别统计协同与权衡；相关性本身不构成政策因果证据。",
+    "method": "基于相关性的协同与权衡识别",
+    "status": "待官网核验",
+    "source": "研究方法汇总/研究方法文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "17项SDGs之间可能相互促进或相互制约，单目标评价不足以描述整体发展。",
+      "methods": "使用多国SDG指标，以Spearman秩相关识别正负关系，并汇总不同目标之间的统计协同与权衡。",
+      "conclusions": "减贫与较多其他目标表现为协同，负责任消费与生产等目标更常表现出权衡，且关联模式具有地区差异。",
+      "implications": "可作为跨目标关系的探索性起点，后续再引入资源流、制度和行为解释；相关性不等于因果效应或政策协同。"
+    }
+  },
+  {
+    "id": "L020",
+    "title": "A system dynamic model to quantify the impacts of water resources allocation on water–energy–food–society (WEFS) nexus.",
+    "year": 2022,
+    "url": "https://doi.org/10.5194/hess-26-3965-2022",
+    "journal": "Hydrology and Earth System Sciences",
+    "categories": [
+      "研究方法"
+    ],
+    "tags": [
+      "Nexus",
+      "农食系统",
+      "粮食安全"
+    ],
+    "summary": "使用存量、流量、反馈回路和时滞模拟水资源配置的长期跨系统影响。",
+    "method": "系统动力学",
+    "status": "待官网核验",
+    "source": "研究方法汇总/研究方法文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "资源短缺、经济扩张和社会环境意识之间存在反馈与时滞，静态指标无法充分描述长期变化。",
+      "methods": "以汉江中下游为例，构建水—能源—粮食—社会系统动力学模型，加入水库调度及环境意识反馈，比较水资源配置情景。",
+      "conclusions": "给定模型结构下，社会反馈可以改变经济扩张与资源短缺路径，合理配置有助缓解跨部门约束。",
+      "implications": "适用于政策的长期反馈分析，但行为函数和极端短缺响应需要经验校准；模拟路径不能直接解释为实际政策效果。"
+    }
+  },
+  {
+    "id": "L021",
+    "title": "Optimal design of the water-energy-food nexus for rural communities.",
+    "year": 2020,
+    "url": "https://doi.org/10.1016/j.compchemeng.2020.107120",
+    "journal": "Computers & Chemical Engineering",
+    "categories": [
+      "研究方法"
+    ],
+    "tags": [
+      "Nexus",
+      "农食系统",
+      "粮食安全"
+    ],
+    "summary": "在多种资源约束下比较目标冲突，利用帕累托前沿呈现可行的农村系统设计。",
+    "method": "多目标优化与帕累托分析",
+    "status": "待官网核验",
+    "source": "研究方法汇总/研究方法文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "偏远农村供电、供水和农业生产共享土地、水与资金，分割规划容易遗漏技术和资源竞争。",
+      "methods": "构建农村WEF技术超结构，联合优化设备规模、作物土地分配与运行，以非线性规划、ε约束法和帕累托筛选比较多目标方案。",
+      "conclusions": "能源作物与粮食作物存在土地权衡；经济最优不必然兼顾环境与社会目标，综合设计能给出一组折中方案。",
+      "implications": "适用于技术组合和农村资源规划；应检验生物燃料价格、作物单产和最低粮食约束，而不是只报告一个最优解。"
+    }
+  },
+  {
+    "id": "L022",
+    "title": "AquaCrop—The FAO crop model to simulate yield response to water: I. Concepts and underlying principles.",
+    "year": 2009,
+    "url": "https://doi.org/10.2134/agronj2008.0139s",
+    "journal": "Agronomy Journal",
+    "categories": [
+      "研究方法"
+    ],
+    "tags": [
+      "Nexus",
+      "农食系统",
+      "粮食安全"
+    ],
+    "summary": "模拟作物对水分的产量响应，连接气象、土壤和田间管理。",
+    "method": "作物水分—产量过程模型",
+    "status": "待官网核验",
+    "source": "研究方法汇总/研究方法文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "农业需要把水分供应与作物产量联系起来，以评估灌溉管理和气候条件变化。",
+      "methods": "AquaCrop连接冠层、生物量、水分生产率和收获指数，以气象、土壤、作物及管理数据模拟蒸腾与产量响应。",
+      "conclusions": "该方法建立了水分可利用性到生物量、再到收获产量的机制框架，支持不同供水与管理方案的比较。",
+      "implications": "适合研究亏缺灌溉与水分生产率；需要当地品种和土壤校准，模型增产潜力不等于农户真实采用收益。"
+    }
+  },
+  {
+    "id": "L023",
+    "title": "The green, blue and grey water footprint of crops and derived crop products.",
+    "year": 2011,
+    "url": "https://doi.org/10.5194/hess-15-1577-2011",
+    "journal": "Hydrology and Earth System Sciences",
+    "categories": [
+      "研究方法"
+    ],
+    "tags": [
+      "Nexus",
+      "农食系统",
+      "粮食安全"
+    ],
+    "summary": "区分绿水、蓝水和灰水，核算作物生产及衍生产品的水足迹。",
+    "method": "农业水足迹评价",
+    "status": "待官网核验",
+    "source": "研究方法汇总/研究方法文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "不同作物和地区的用水来源及污染压力不同，合并总量会掩盖农业水资源联系。",
+      "methods": "分别核算降水支撑的绿水、地表与地下水支撑的蓝水，以及按污染负荷和水质标准推算的灰水足迹，并分配到作物及衍生产品。",
+      "conclusions": "研究提供了区分水源和污染含义的作物水足迹核算框架，使跨产品、跨地区比较具有更清楚的物理口径。",
+      "implications": "应把足迹与当地水资源稀缺性、季节和贸易联系结合；灰水是污染稀释指标，不能与实际取水混为一谈。"
+    }
+  },
+  {
+    "id": "L024",
+    "title": "Satellite-based estimates of groundwater depletion in India.",
+    "year": 2009,
+    "url": "https://doi.org/10.1038/nature08238",
+    "journal": "Nature",
+    "categories": [
+      "研究方法"
+    ],
+    "tags": [
+      "Nexus"
+    ],
+    "summary": "从GRACE陆地总储水异常中扣除其他储水分量，估算区域地下水储量变化。",
+    "method": "GRACE卫星地下水储量估算",
+    "status": "待官网核验",
+    "source": "研究方法汇总/研究方法文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "地下水变化难以全面地面监测，但其长期净损失关系到灌溉与供水的可持续性。",
+      "methods": "结合GRACE重力观测与陆面水文模型，从陆地总储水异常中扣除土壤水等非地下水分量，估算印度西北部地下水储量变化。",
+      "conclusions": "研究显示2002—2008年研究区存在明显地下水净损失，揭示农业用水与资源长期可持续性之间的矛盾。",
+      "implications": "可用于区域地下水趋势与灌溉压力研究；空间分辨率和分量扣除误差限制了细尺度解释，储量异常不等于单井水位。"
+    }
+  },
+  {
+    "id": "L025",
+    "title": "WEAP21—A demand-, priority-, and preference-driven water planning model: Part 1: Model characteristics.",
+    "year": 2005,
+    "url": "https://doi.org/10.1080/02508060508691893",
+    "journal": "Water International",
+    "categories": [
+      "研究方法"
+    ],
+    "tags": [
+      "Nexus"
+    ],
+    "summary": "将流域供水、部门需求、工程和生态流量纳入按优先级配置的情景框架。",
+    "method": "WEAP21流域水资源规划模型",
+    "status": "待官网核验",
+    "source": "研究方法汇总/研究方法文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "流域中供水、需求、工程与制度规则同时约束分配，按支付意愿排序不足以表示现实管理。",
+      "methods": "WEAP21整合部门需水、供水网络、基础设施和生态流量，通过需求优先级与供水偏好分配水量，并比较不同气候和管理情景。",
+      "conclusions": "模型可在同一物理网络中呈现制度规则改变如何重分配供水与短缺，为跨部门管理提供情景工具。",
+      "implications": "适合研究农业、居民、工业与生态用水竞争；规则与需求数据需透明，模型情景结果不同于水价最优化或政策因果效果。"
+    }
+  },
+  {
+    "id": "L026",
+    "title": "The efficient use of energy: Tracing the global flow of energy from fuel to service.",
+    "year": 2010,
+    "url": "https://doi.org/10.1016/j.enpol.2009.08.054",
+    "journal": "Energy Policy",
+    "categories": [
+      "研究方法"
+    ],
+    "tags": [
+      "Nexus"
+    ],
+    "summary": "沿一次能源、转换设备、被动系统和最终服务追踪能源流，使用桑基图识别损失和改进空间。",
+    "method": "能源流核算与桑基图分析",
+    "status": "待官网核验",
+    "source": "研究方法汇总/研究方法文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "宏观能源平衡难以指出能源最终满足何种需求，以及效率改善应发生在哪一技术环节。",
+      "methods": "沿能源来源、转换设备、被动系统和最终服务追踪能源流，利用统一口径与技术参数分配流量，并用桑基图展示。",
+      "conclusions": "关键节能空间同时取决于流量规模和效率改进潜力，设备效率与最终服务需求需要联合评价。",
+      "implications": "可把灌溉、运输和食品服务纳入完整能源链。不同层次重复追踪同一能源，不能将各层总量相加；部分细分流依赖间接估算。"
+    }
+  },
+  {
+    "id": "L027",
+    "title": "OSeMOSYS: The Open Source Energy Modeling System: An introduction to its ethos, structure and development.",
+    "year": 2011,
+    "url": "https://doi.org/10.1016/j.enpol.2011.06.033",
+    "journal": "Energy Policy",
+    "categories": [
+      "研究方法"
+    ],
+    "tags": [
+      "Nexus"
+    ],
+    "summary": "用开放的数学规划模型，在需求、技术、资源和排放约束下比较能源系统路径。",
+    "method": "开放式能源系统优化模型",
+    "status": "待官网核验",
+    "source": "研究方法汇总/研究方法文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "能源规划要在供需、技术和排放约束下比较长期投资，开放模型有助降低复现与扩展门槛。",
+      "methods": "OSeMOSYS以开放、模块化的数学规划表示需求、容量、技术、储能、排放和可再生能源约束，求解给定情景的系统配置。",
+      "conclusions": "文章贡献在于提出可复用和透明的能源系统建模结构，支持成本与技术路径的系统比较。",
+      "implications": "可将灌溉电气化作为服务需求与能源规划联动；抽水扬程、泵效和作物需水必须额外参数化，不能由能源模型自动生成。"
+    }
+  },
+  {
+    "id": "L028",
+    "title": "The market value of variable renewables: The effect of solar wind power variability on their relative price.",
+    "year": 2013,
+    "url": "https://doi.org/10.1016/j.eneco.2013.02.004",
+    "journal": "Energy Economics",
+    "categories": [
+      "研究方法"
+    ],
+    "tags": [
+      "Nexus"
+    ],
+    "summary": "用发电加权市场价格与基准电价的比值衡量风光市场价值，讨论时段匹配与价格反馈。",
+    "method": "可变可再生能源市场价值分析",
+    "status": "待官网核验",
+    "source": "研究方法汇总/研究方法文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "风光度电成本不能充分描述发电时间、预测偏差和网络位置所决定的电力价值。",
+      "methods": "计算发电加权电价相对基准电价的价值因子，结合文献、历史市场回归与电力调度—投资优化，分解时间、平衡和网络因素。",
+      "conclusions": "同类电源集中出力及电价下降可能随渗透率提高削弱其市场价值，影响大小取决于系统灵活性等条件。",
+      "implications": "可研究光伏出力与灌溉负荷的时间匹配；价值因子是电力市场相对价格指标，不能直接当作农业或水资源价值。"
+    }
+  },
+  {
+    "id": "L029",
+    "title": "The DSSAT cropping system model.",
+    "year": 2003,
+    "url": "https://doi.org/10.1016/S1161-0301(02)00107-7",
+    "journal": "European Journal of Agronomy",
+    "categories": [
+      "研究方法"
+    ],
+    "tags": [
+      "Nexus",
+      "农食系统",
+      "粮食安全"
+    ],
+    "summary": "通过模块化作物过程模型连接天气、土壤、遗传参数和农业管理，模拟产量及资源需求。",
+    "method": "模块化的作物过程模拟体系",
+    "status": "待官网核验",
+    "source": "研究方法汇总/研究方法文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "天气、土壤、作物品种和农业管理共同影响产量，需要可共享组件的过程模型来比较生产方案。",
+      "methods": "DSSAT将作物、天气、土壤和管理过程组织到模块化框架，支持不同品种、播期、灌溉和施肥条件下的模拟。",
+      "conclusions": "模块化结构允许不同作物模型共享过程组件，并在一致的自然机制下比较管理和环境情景。",
+      "implications": "适合气候影响与技术方案评估；需要校准和独立验证，模型情景增产不能替代实际政策或技术采用的因果识别。"
+    }
+  },
+  {
+    "id": "L030",
+    "title": "The impact of global warming on agriculture: A Ricardian analysis.",
+    "year": 1994,
+    "url": "https://www.jstor.org/stable/2118029",
+    "journal": "American Economic Review",
+    "categories": [
+      "研究方法"
+    ],
+    "tags": [
+      "Nexus",
+      "气候变化",
+      "农食系统"
+    ],
+    "summary": "利用农地价值与气候的横截面差异研究长期农业适应，解释依赖遗漏变量和市场假设。",
+    "method": "李嘉图分析法",
+    "status": "待官网核验",
+    "source": "研究方法汇总/研究方法文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "固定管理的产量模拟可能忽略长期作物转换与投入适应，经济损失还需考虑经营者调整。",
+      "methods": "利用美国县域农地价值或净地租与气候、土壤等条件的横截面关系，以土地收益资本化刻画长期适应的综合结果。",
+      "conclusions": "温度和降水的影响具有季节性与非线性，经营调整使气候经济影响不同于固定作物与管理下的产量变化。",
+      "implications": "可研究长期适应的综合价值；需审查遗漏变量、水资源条件、价格和均衡假设，横截面关联不等于短期天气冲击。"
+    }
+  },
+  {
+    "id": "L031",
+    "title": "Multisectoral analysis of drought impacts and management responses to the 2008–2015 record drought in the Colorado Basin, Texas.",
+    "year": 2024,
+    "url": "https://doi.org/10.5194/nhess-24-1871-2024",
+    "journal": "Natural Hazards and Earth System Sciences",
+    "categories": [
+      "研究方法"
+    ],
+    "tags": [
+      "Nexus",
+      "气候变化"
+    ],
+    "summary": "以得克萨斯州科罗拉多流域干旱为例，比较跨部门影响及管理响应。",
+    "method": "多部门干旱影响分析",
+    "status": "待官网核验",
+    "source": "研究方法汇总/研究方法文献清单.xlsx",
+    "note": "根据课题组整理材料与题名形成的中文导读，非出版商原文摘要。",
+    "analysis": {
+      "background": "长期干旱通过水库、农业和能源基础设施传播，但不同部门受损并不一致。",
+      "methods": "以得克萨斯州科罗拉多流域2008—2015年干旱为案例，分析水资源、农业、电力与管理响应，联系产业和技术条件解释差异。",
+      "conclusions": "农业与水资源系统受到明显冲击，但电力部门未出现同样重大的不利影响，与当地水电占比较低和部分低耗水技术有关。",
+      "implications": "风险研究既要识别传导路径，也要识别阻断路径的基础设施；不能将一个流域的部门损失模式直接外推至其他地区。"
+    }
+  },
+  {
+    "id": "D000",
+    "title": "FAOSTAT",
+    "url": "https://www.fao.org/faostat/en/",
+    "summary": "农业生产、贸易、投入与农业排放；需逐表核对单位、覆盖年份及许可。",
+    "categories": [
+      "数据资源"
+    ],
+    "tags": [
+      "农食系统"
+    ],
+    "year": 0,
+    "status": "官方入口·内容待复核",
+    "journal": "数据目录",
+    "note": "此处提供数据入口，不托管数据文件；覆盖范围与使用许可请查阅官网。"
+  },
+  {
+    "id": "D001",
+    "title": "AQUASTAT",
+    "url": "https://www.fao.org/aquastat/en/",
+    "summary": "国家水资源、取用水与灌溉统计；区分实际取水与耗水。",
+    "categories": [
+      "数据资源"
+    ],
+    "tags": [
+      "Nexus"
+    ],
+    "year": 0,
+    "status": "官方入口·内容待复核",
+    "journal": "数据目录",
+    "note": "此处提供数据入口，不托管数据文件；覆盖范围与使用许可请查阅官网。"
+  },
+  {
+    "id": "D002",
+    "title": "World Bank Open Data",
+    "url": "https://data.worldbank.org/",
+    "summary": "经济、人口、农业和能源指标，适合国家层面的社会经济匹配。",
+    "categories": [
+      "数据资源"
+    ],
+    "tags": [
+      "粮食安全"
+    ],
+    "year": 0,
+    "status": "官方入口·内容待复核",
+    "journal": "数据目录",
+    "note": "此处提供数据入口，不托管数据文件；覆盖范围与使用许可请查阅官网。"
+  },
+  {
+    "id": "D003",
+    "title": "Copernicus Climate Data Store",
+    "url": "https://cds.climate.copernicus.eu/",
+    "summary": "再分析与气候数据入口；下载可能需要账户及条款确认。",
+    "categories": [
+      "数据资源"
+    ],
+    "tags": [
+      "气候变化"
+    ],
+    "year": 0,
+    "status": "官方入口·内容待复核",
+    "journal": "数据目录",
+    "note": "此处提供数据入口，不托管数据文件；覆盖范围与使用许可请查阅官网。"
+  },
+  {
+    "id": "D004",
+    "title": "NASA GRACE",
+    "url": "https://grace.jpl.nasa.gov/data/",
+    "summary": "陆地储水与重力卫星产品入口；地下水估算需要分量扣除。",
+    "categories": [
+      "数据资源"
+    ],
+    "tags": [
+      "Nexus"
+    ],
+    "year": 0,
+    "status": "官方入口·内容待复核",
+    "journal": "数据目录",
+    "note": "此处提供数据入口，不托管数据文件；覆盖范围与使用许可请查阅官网。"
+  },
+  {
+    "id": "D005",
+    "title": "EXIOBASE",
+    "url": "https://www.exiobase.eu/",
+    "summary": "环境扩展多区域投入产出数据，适用于消费足迹和供应链分析。",
+    "categories": [
+      "数据资源"
+    ],
+    "tags": [
+      "Nexus"
+    ],
+    "year": 0,
+    "status": "官方入口·内容待复核",
+    "journal": "数据目录",
+    "note": "此处提供数据入口，不托管数据文件；覆盖范围与使用许可请查阅官网。"
+  },
+  {
+    "id": "P000",
+    "title": "IPCC AR6 综合报告",
+    "url": "https://www.ipcc.ch/report/ar6/syr/",
+    "summary": "气候风险、适应与减缓的综合评估入口。",
+    "categories": [
+      "政策报告"
+    ],
+    "tags": [
+      "气候变化"
+    ],
+    "year": 0,
+    "status": "官方入口·内容待复核",
+    "journal": "机构报告",
+    "note": "报告入口，具体版本与政策适用范围需以官网为准。",
+    "scope": "全球政策"
+  },
+  {
+    "id": "P001",
+    "title": "联合国可持续发展目标",
+    "url": "https://sdgs.un.org/goals",
+    "summary": "为跨系统研究建立共同的政策目标与指标语言。",
+    "categories": [
+      "政策报告"
+    ],
+    "tags": [
+      "粮食安全"
+    ],
+    "year": 0,
+    "status": "官方入口·内容待复核",
+    "journal": "机构报告",
+    "note": "报告入口，具体版本与政策适用范围需以官网为准。",
+    "scope": "全球政策"
+  },
+  {
+    "id": "P002",
+    "title": "FAO 粮食安全和营养状况",
+    "url": "https://www.fao.org/publications/sofi/en/",
+    "summary": "粮食安全、营养与食物可获得性的年度报告入口。",
+    "categories": [
+      "政策报告"
+    ],
+    "tags": [
+      "粮食安全"
+    ],
+    "year": 0,
+    "status": "官方入口·内容待复核",
+    "journal": "机构报告",
+    "note": "报告入口，具体版本与政策适用范围需以官网为准。",
+    "scope": "全球政策"
+  },
+  {
+    "id": "C000",
+    "title": "Multiscale assessment of transboundary water-food-energy nexus under climate change in Irtysh River Basin.",
+    "year": 2026,
+    "url": "https://doi.org/10.1016/j.isci.2026.117374",
+    "journal": "iScience",
+    "categories": [
+      "现实案例"
+    ],
+    "tags": [
+      "Nexus",
+      "气候变化",
+      "农食系统",
+      "粮食安全"
+    ],
+    "summary": "案例研究导读：在额尔齐斯河流域连接气候、水文、灌溉和水电情景，考察跨尺度资源约束与上下游差异。",
+    "method": "",
+    "status": "待官网核验",
+    "source": "前沿文献汇总/前沿文献文献清单.xlsx",
+    "note": "来源于已收录文献；属于论文案例，不代表课题组自主实地项目。"
+  },
+  {
+    "id": "C001",
+    "title": "Do grid-connected solar irrigation pumps help promote groundwater sustainability?: Evidence from India.",
+    "year": 2026,
+    "url": "https://doi.org/10.1016/j.nexus.2026.100746",
+    "journal": "Energy Nexus",
+    "categories": [
+      "现实案例"
+    ],
+    "tags": [
+      "Nexus",
+      "农食系统"
+    ],
+    "summary": "案例研究导读：考察印度并网太阳能灌溉泵与地下水可持续性的关系，连接能源激励和抽水行为。",
+    "method": "",
+    "status": "待官网核验",
+    "source": "前沿文献汇总/前沿文献文献清单.xlsx",
+    "note": "来源于已收录文献；属于论文案例，不代表课题组自主实地项目。"
+  },
+  {
+    "id": "C002",
+    "title": "Impacts of agrisolar co-location on the food–energy–water nexus and economic security.",
+    "year": 2025,
+    "url": "https://doi.org/10.1038/s41893-025-01546-4",
+    "journal": "Nature Sustainability",
+    "categories": [
+      "现实案例"
+    ],
+    "tags": [
+      "Nexus",
+      "农食系统",
+      "粮食安全"
+    ],
+    "summary": "案例研究导读：结合加州农业区域光伏设施、土地利用和现金流核算，比较食品、能源、水与经济安全。",
+    "method": "",
+    "status": "待官网核验",
+    "source": "前沿文献汇总/前沿文献文献清单.xlsx",
+    "note": "来源于已收录文献；属于论文案例，不代表课题组自主实地项目。"
+  },
+  {
+    "id": "C003",
+    "title": "Droughts worsen air quality and health by shifting power generation.",
+    "year": 2025,
+    "url": "https://doi.org/10.1038/s41467-025-60090-z",
+    "journal": "Nature Communications",
+    "categories": [
+      "现实案例"
+    ],
+    "tags": [
+      "Nexus",
+      "气候变化"
+    ],
+    "summary": "案例研究导读：以干旱引发的发电结构调整为传导机制，研究水资源冲击如何扩展至空气质量和健康。",
+    "method": "",
+    "status": "待官网核验",
+    "source": "前沿文献汇总/前沿文献文献清单.xlsx",
+    "note": "来源于已收录文献；属于论文案例，不代表课题组自主实地项目。"
+  },
+  {
+    "title": "巴黎协定",
+    "url": "https://unfccc.int/process-and-meetings/the-paris-agreement",
+    "summary": "以长期温控目标、国家自主贡献、适应与资金安排连接全球气候行动。Nexus研究可据此讨论能源转型与农业、水资源适应的协同；具体国家义务和实施进度应分别查阅缔约方文件。",
+    "scope": "全球政策",
+    "year": 2015,
+    "journal": "UNFCCC",
+    "id": "P100",
+    "categories": [
+      "政策报告"
+    ],
+    "tags": [
+      "Nexus",
+      "气候变化"
+    ],
+    "status": "官方来源",
+    "note": "政策官方文本与机构入口。"
+  },
+  {
+    "title": "变革我们的世界：2030年可持续发展议程",
+    "url": "https://sdgs.un.org/2030agenda",
+    "summary": "通过17项可持续发展目标与169项具体目标，把粮食、水、能源、气候和生态系统纳入共同政策框架。适合用于界定跨目标关系和研究评价维度；目标间联系仍需数据或机制分析支持。",
+    "scope": "全球政策",
+    "year": 2015,
+    "journal": "联合国",
+    "id": "P101",
+    "categories": [
+      "政策报告"
+    ],
+    "tags": [
+      "Nexus",
+      "粮食安全"
+    ],
+    "status": "官方来源",
+    "note": "政策官方文本与机构入口。"
+  },
+  {
+    "title": "粮食系统与营养自愿准则",
+    "url": "https://www.fao.org/cfs/policy-products/voluntary-guidelines-and-policy-recommendations/voluntary-guidelines-on-food-systems-and-nutrition/en",
+    "summary": "世界粮食安全委员会于2021年通过的自愿政策工具，强调农业、健康、贸易、环境与社会保护之间的政策一致性，以促进可获得、可负担和可持续的健康膳食。适合农食系统治理与营养安全研究。",
+    "scope": "全球政策",
+    "year": 2021,
+    "journal": "世界粮食安全委员会 CFS / FAO",
+    "id": "P102",
+    "categories": [
+      "政策报告"
+    ],
+    "tags": [
+      "Nexus",
+      "粮食安全"
+    ],
+    "status": "官方来源",
+    "note": "政策官方文本与机构入口。"
+  },
+  {
+    "title": "昆明—蒙特利尔全球生物多样性框架",
+    "url": "https://www.cbd.int/gbf",
+    "summary": "2022年通过的全球生物多样性框架，为生态保护、恢复及可持续利用提供共同目标。适合把生态系统维度纳入WEFE研究，讨论农业、土地利用与自然保护的协调。",
+    "scope": "全球政策",
+    "year": 2022,
+    "journal": "《生物多样性公约》秘书处",
+    "id": "P103",
+    "categories": [
+      "政策报告"
+    ],
+    "tags": [
+      "Nexus",
+      "粮食安全"
+    ],
+    "status": "官方来源",
+    "note": "政策官方文本与机构入口。"
+  },
+  {
+    "title": "国家适应气候变化战略2035",
+    "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk03/202206/t20220613_985261.html",
+    "summary": "生态环境部等17部门联合印发，围绕监测预警、风险管理与自然及经济社会系统适应安排任务，覆盖水资源、农业与粮食安全等领域。通知页附战略原文，适合梳理跨部门适应政策。",
+    "scope": "国内政策",
+    "year": 2022,
+    "journal": "生态环境部等17部门",
+    "id": "P104",
+    "categories": [
+      "政策报告"
+    ],
+    "tags": [
+      "Nexus",
+      "气候变化"
+    ],
+    "status": "官方来源",
+    "note": "政策官方文本与机构入口。"
+  },
+  {
+    "title": "中华人民共和国粮食安全保障法",
+    "url": "https://fgs.moa.gov.cn/flfg/202401/t20240118_6446125.htm",
+    "summary": "2023年通过、2024年6月1日起施行，覆盖耕地保护、粮食生产、储备、流通、加工、应急与节约。为识别粮食供给保障责任和全链条治理提供制度依据；应区分通过年份与施行年份。",
+    "scope": "国内政策",
+    "year": 2023,
+    "journal": "全国人大常委会 / 农业农村部法规司",
+    "id": "P105",
+    "categories": [
+      "政策报告"
+    ],
+    "tags": [
+      "Nexus",
+      "粮食安全"
+    ],
+    "status": "官方来源",
+    "note": "政策官方文本与机构入口。"
+  },
+  {
+    "title": "节约用水条例",
+    "url": "https://xzfg.moj.gov.cn/front/law/detail?LawID=1709",
+    "summary": "2024年公布、同年5月1日起施行，围绕全社会节约用水与国家水安全建立制度要求。适合研究农业节水、资源配置与管理约束，连接工程效率和实际用水行为。",
+    "scope": "国内政策",
+    "year": 2024,
+    "journal": "国务院 / 国家行政法规库",
+    "id": "P106",
+    "categories": [
+      "政策报告"
+    ],
+    "tags": [
+      "Nexus",
+      "粮食安全"
+    ],
+    "status": "官方来源",
+    "note": "政策官方文本与机构入口。"
+  },
+  {
+    "title": "2030年前碳达峰行动方案",
+    "url": "https://app.www.gov.cn/govdata/gov/202110/26/477466/article.html",
+    "summary": "国发〔2021〕23号，部署能源绿色低碳转型、节能降碳等行动，强调系统推进和政策协同。适合分析能源转型与水、土地及农业资源配置的联动；本链接为政府公开文本。",
+    "scope": "国内政策",
+    "year": 2021,
+    "journal": "国务院",
+    "id": "P107",
+    "categories": [
+      "政策报告"
+    ],
+    "tags": [
+      "Nexus",
+      "气候变化"
+    ],
+    "status": "官方来源",
+    "note": "政策官方文本与机构入口。"
+  }
+]

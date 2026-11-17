@@ -1,0 +1,58 @@
+name: Discover literature candidates
+on:
+  schedule:
+    - cron: '15 0 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: literature-discovery
+  cancel-in-progress: false
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Query Crossref
+        run: python scripts/discover.py
+      - name: Save candidates
+        run: |
+          git config user.name 'Frank Nexus updater'
+          git config user.email 'nexus-updater@users.noreply.github.com'
+          git add dist/candidates.json dist/discovery-status.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update literature discovery candidates'
+            git push
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: literature-candidates
+          path: dist/candidates.json
+  publish:
+    needs: discover
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - run: python3 scripts/build_pages.py
+      - run: python3 scripts/validate.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - uses: actions/deploy-pages@v4
+        id: deployment
