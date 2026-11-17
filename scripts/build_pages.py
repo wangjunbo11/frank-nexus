@@ -44,6 +44,6 @@ for x in literature:
  analysis=x.get('analysis',{}); body='<p class="lead">'+e(x.get('journal',''))+' · '+str(x.get('year',''))+'</p>'
  if x.get('abstract',{}).get('text'):body+='<section id="abstract"><h2>摘要 · '+e(x['abstract'].get('kind','中文概述'))+'</h2><p>'+e(x['abstract']['text'])+'</p></section>'
  for key,title in [('background','研究背景'),('methods','研究方法'),('conclusions','主要结论'),('implications','研究启示')]:body+='<section id="'+key+'"><h2>'+title+'</h2><p>'+e(analysis.get(key,''))+'</p></section>'
- body+='<p class="source-note">中文导读依据课题组研究材料整理。</p><a class="primary" href="'+e(x['url'])+'" target="_blank" rel="noopener noreferrer">阅读官方原文 ↗</a>'
+ body+='<p class="source-note">中文导读依据研究材料整理。</p><a class="primary" href="'+e(x['url'])+'" target="_blank" rel="noopener noreferrer">阅读官方原文 ↗</a>'
  page(Path('literature/'+x['id']+'.html'),x['title'],body,crumb='文献精读',toc='<a href="../index.html">返回资料库</a>'+''.join('<a href="#'+k+'">'+t+'</a>' for k,t in [('background','研究背景'),('methods','研究方法'),('conclusions','主要结论'),('implications','研究启示')]))
 print('Built',len(list((ROOT/'reviews').glob('*.html'))),'review pages and',len(literature),'literature pages')
