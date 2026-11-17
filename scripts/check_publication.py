@@ -34,6 +34,7 @@ def main():
    if not p.is_file():continue
    for problem in problems(name,p.read_bytes()):failures.append((name,problem))
   for p in (ROOT/'dist').rglob('*'):
+   if p.is_symlink():failures.append((str(p.relative_to(ROOT)),'symlink in publication files'))
    if p.is_file():
     for problem in problems(str(p.relative_to(ROOT)),p.read_bytes()):failures.append((str(p.relative_to(ROOT)),problem))
  if failures:
