@@ -26,6 +26,7 @@ for path in html_files:
         assert target.exists(),(path,href)
 for x in a:
     if x['id'].startswith('L'):
+        assert x.get('abstract',{}).get('text') and x['abstract'].get('kind') and x['abstract'].get('source'),x['id']
         assert all(x.get('analysis',{}).get(k) for k in ('background','methods','conclusions','implications')),x['id']
     if '政策报告' in x['categories']:assert x.get('scope') in ('全球政策','国内政策'),x['id']
 print('PASS:',len(html_files),'HTML pages with valid local links; literature analyses and policy scopes present.')

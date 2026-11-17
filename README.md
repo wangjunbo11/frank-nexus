@@ -38,7 +38,7 @@ GitHub Pages 官方说明：https://docs.github.com/en/pages/getting-started-wit
 
 ## 定期更新
 
-仓库启用后 `.github/workflows/discover.yml` 每周一北京时间08:15检索最近45天的Crossref论文，按DOI与正式目录去重，写入候选池并发布。候选写入dist/candidates.json；所有者通过GitHub检查候选、补齐导读后更新正式目录。该流程不需要API密钥或AI付费调用，不自动生成论文摘要。仓库Actions需开启且允许工作流写入；平台可能延迟计划任务，公共仓库长期无活动时也可能停用计划任务。接口失败时工作流报告失败，保留正式资料不变。
+仓库启用后 `.github/workflows/discover.yml` 每日北京时间22:30检索最近45天的Crossref论文，按DOI与正式目录去重，写入候选池并发布。候选写入dist/candidates.json；所有者通过GitHub检查候选、补齐导读后更新正式目录。该流程不需要API密钥或AI付费调用，不自动生成论文摘要。仓库Actions需开启且允许工作流写入；平台可能延迟计划任务，公共仓库长期无活动时也可能停用计划任务。接口失败时工作流报告失败，保留正式资料不变。
 
 已有ChatGPT Nexus任务可以继续用于研究与导读；目前尚无自动读取该ChatGPT任务并同步GitHub的连接，不声称两者已经互通。
 
@@ -54,3 +54,10 @@ GitHub Pages 官方说明：https://docs.github.com/en/pages/getting-started-wit
 内容修改后执行 `python3 scripts/build_pages.py` 再执行 `python3 scripts/validate.py`；GitHub发布和镜像工作流也执行此生成步骤。分节与表格保存在dist/reviews.json；原始notes.json仅作为历史归档数据，页面不再读取。
 
 大陆镜像流程见 MAINLAND-MIRROR.md。镜像目前未上线，需实际云账户、域名、DNS与HTTPS配置。
+
+
+## 每日更新与摘要
+
+本项目的Codex维护任务每天北京时间23:00执行，寻找并核验优质Nexus文献、案例、数据和政策，通过后自动提交和发布。GitHub候选检索工作流每天22:30预先抓取文献元数据，两者调度时间可能延迟；正式收录由维护任务核实来源和相关性。
+
+每篇文献卡片默认展开摘要，可点击摘要标题收起。现有摘要为基于课题组材料的中文概述，明确标注，与出版商原文摘要区分；新增记录需提供abstract{text,kind,source}。期刊优先列表在config/journals.json；此列表用于来源优先级，不声称固定分区或影响因子。

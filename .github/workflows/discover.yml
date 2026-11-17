@@ -1,7 +1,7 @@
 name: Discover literature candidates
 on:
   schedule:
-    - cron: '15 0 * * 1'
+    - cron: '30 14 * * *'
   workflow_dispatch:
 permissions:
   contents: write
