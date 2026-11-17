@@ -4,7 +4,7 @@
 
 ## 当前内容
 
-两份原始 Excel 清单共32条，按官方链接去重后31篇独立文献，其中16篇前沿文献、16篇方法文献（黄河水文经济模型交叉收录）。另有6个数据入口、4个论文案例、3个政策报告入口。三份 Word 的纯文字记录存于 notes.json，公式、图片、部分表格结构请查阅原文件。未上传原始论文全文或期刊图片。
+两份原始 Excel 清单共32条，按官方链接去重后31篇独立文献，其中16篇前沿文献、16篇方法文献（黄河水文经济模型交叉收录）。另有6个数据入口、4个论文案例、3个政策报告入口。网站仅发布经整理的资料，原始研究笔记、同步状态和内部检查报告保留在本地。公式、图片等请查阅原文件。未上传原始论文全文或期刊图片。
 
 导读依据用户整理材料与题名编写，非出版商摘要；正式目录的来源未全部联网核验，均保留核验状态。《The paradox of irrigation efficiency》原清单年份2026有疑点，尚未擅自替换。案例为文献案例，不属于课题组实地项目。
 
@@ -51,7 +51,7 @@ GitHub Pages 官方说明：https://docs.github.com/en/pages/getting-started-wit
 
 综述按原文生成3个Part、6章、31节，共41个HTML页面；不再显示文本文件归档卡片。31篇文献补充背景、方法、结论、启示，并各有独立页面。政策新增全球4项、国内4项，连同原有机构报告共11条，支持范围筛选。展示界面移除核验状态字样，后台记录继续保留来源管理信息。
 
-内容修改后执行 `python3 scripts/build_pages.py` 再执行 `python3 scripts/validate.py`；GitHub发布和镜像工作流也执行此生成步骤。分节与表格保存在dist/reviews.json；原始notes.json仅作为历史归档数据，页面不再读取。
+内容修改后执行 `python3 scripts/build_pages.py` 再执行 `python3 scripts/validate.py`；GitHub发布和镜像工作流也执行此生成步骤。分节与表格保存在dist/reviews.json；旧版笔记全文归档已从公开文件中移除。
 
 大陆镜像流程见 MAINLAND-MIRROR.md。镜像目前未上线，需实际云账户、域名、DNS与HTTPS配置。
 
@@ -65,8 +65,13 @@ GitHub Pages 官方说明：https://docs.github.com/en/pages/getting-started-wit
 
 ## 本地文档同步与引用
 
-每日23:00任务同时执行 `python3 scripts/sync_local_documents.py`，扫描项目上一级研究目录中的Word、Excel、PDF等源文件，以SHA-256检测内容更新，忽略网站目录及Word锁文件。source-state.json记录同步基线；非综述文件变化进入pendingFiles，由维护任务整理后清除。删除不直接导致线上资料删除。原始文档只读。
+每日23:00任务同时执行 `python3 scripts/sync_local_documents.py`，扫描项目上一级研究目录中的Word、Excel、PDF等源文件，以SHA-256检测内容更新，忽略网站目录及Word锁文件。本地.local/source-state.json记录同步基线；非综述文件变化进入pendingFiles，由维护任务整理后清除。删除不直接导致线上资料删除。原始文档只读。
 
-综述导入根据Word编号层级识别章和节，将有标题或无标题的文末连续APA书目提取至dist/references.json。正文作者—年份引用链接至本节参考文献，references.html提供全局书目及引用位置回链。同作者同年条目仅在研究对象明确时区分，否则记录citation-audit.json；正文引文在书目缺失时不臆造对应。
+综述导入根据Word编号层级识别章和节，将有标题或无标题的文末连续APA书目提取至dist/references.json。正文作者—年份引用链接至本节参考文献，references.html提供全局书目及引用位置回链。同作者同年条目仅在研究对象明确时区分，否则记录本地.local/citation-audit.json；正文引文在书目缺失时不臆造对应。
 
 更新综述后运行 `python3 scripts/sync_local_documents.py --force`、`python3 -m unittest discover -s tests`、`python3 scripts/build_pages.py`、`python3 scripts/validate.py`。云端构建使用已同步JSON，不直接读取本地Word。
+
+
+## 公开发布保护
+
+公开文件不包含旧笔记全文归档、本地文件清单和内部引用检查报告；这些资料只保存在被Git忽略的.local目录或仓库之外的本地备份。提交使用GitHub隐藏邮箱。发布前执行python3 scripts/check_publication.py，阻止私密文件路径与常见凭证被加入公开目录；CI构建也执行同一检查。GitHub密钥扫描与推送保护已开启。工作流依赖固定完整SHA，并将写入权限限定到实际需要的作业。

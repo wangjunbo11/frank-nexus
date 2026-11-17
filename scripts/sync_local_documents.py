@@ -96,7 +96,8 @@ def import_review(path):
  return parts,refs,audit
 
 def sync(source_root,force=False):
- state_path=ROOT/'source-state.json';old=json.loads(state_path.read_text()) if state_path.exists() else {'files':{}}
+ private=ROOT/'.local';private.mkdir(mode=0o700,exist_ok=True)
+ state_path=private/'source-state.json';old=json.loads(state_path.read_text()) if state_path.exists() else {'files':{}}
  files={}
  for p in sorted(source_root.rglob('*')):
   if not p.is_file() or ROOT in p.parents or p.name.startswith('~$') or p.suffix.lower() not in ['.docx','.xlsx','.pdf','.csv','.dta','.do']:continue
@@ -106,7 +107,8 @@ def sync(source_root,force=False):
  name='Nexus研究.docx'
  if name in files and (force or name in changed):
   parts,refs,audit=import_review(source_root/name)
-  for filename,obj in [('reviews.json',parts),('references.json',refs),('citation-audit.json',audit)]:
+  (private/'citation-audit.json').write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n')
+  for filename,obj in [('reviews.json',parts),('references.json',refs)]:
    (DIST/filename).write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n')
  # Keep non-review changes pending until the scheduled agent has reconciled them.
  pending=sorted(set(old.get('pendingFiles',[])+[k for k in changed if k!=name]))

@@ -3,3 +3,6 @@
 **/__pycache__
 *.tar.gz
 *.zip
+
+.local
+source-state.json

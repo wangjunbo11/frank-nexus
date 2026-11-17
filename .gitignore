@@ -5,3 +5,9 @@ __pycache__/
 *.zip
 .env
 .env.*
+
+# Local research state and private archives
+.local/
+source-state.json
+dist/notes.json
+dist/citation-audit.json
