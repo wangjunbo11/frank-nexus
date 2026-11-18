@@ -9,5 +9,17 @@
     "journalPriority": true,
     "status": "候选",
     "reason": "已核对Crossref元数据；出版商摘要访问受限，未据题名编写正式结论。"
+  },
+  {
+    "id": "Aae90e3f0216a",
+    "title": "Time for water to take centre stage",
+    "url": "https://doi.org/10.1038/s44221-026-00762-2",
+    "journal": "Nature Water",
+    "year": 2026,
+    "publishedDate": "2026-11-17",
+    "discovered": "2026-11-18",
+    "journalPriority": true,
+    "status": "候选",
+    "reason": "官方搜索记录标为Editorial；全文访问受限，保留候选，不补写实证结论。"
   }
 ]

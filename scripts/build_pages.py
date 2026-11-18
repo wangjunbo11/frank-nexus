@@ -52,7 +52,7 @@ def reading_html(sections):
   out.append(body+'</section>')
  return ''.join(out)
 for x in literature:
- analysis=x.get('analysis',{}); body='<p class="lead">'+e(x.get('journal',''))+' · '+str(x.get('year',''))+'</p>'
+ analysis=x.get('analysis',{}); body='<p class="lead">'+e(x.get('journal',''))+' · '+str(x.get('year',''))+(' · '+e(x['articleType']) if x.get('articleType') else '')+'</p>'
  if x.get('citation'):body+='<p class="source-note">'+e(x['citation'])+'</p>'
  if x.get('publishedDate'):body+='<p class="source-note">在线发表：'+e(x['publishedDate'])+'</p>'
  if x.get('abstract',{}).get('text'):body+='<section id="abstract"><h2>摘要 · '+e(x['abstract'].get('kind','中文概述'))+'</h2><p>'+e(x['abstract']['text'])+'</p></section>'

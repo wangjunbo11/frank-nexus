@@ -1685,5 +1685,41 @@
     "status": "官方来源已核对",
     "note": "公开案例资料，不是本网站开展的实地研究。",
     "added": "2026-11-18"
+  },
+  {
+    "id": "L035",
+    "title": "WEFE nexus approach in agro-food systems: From thinking to doing",
+    "year": 2026,
+    "journal": "Integrated Environmental Assessment and Management",
+    "url": "https://doi.org/10.1093/inteam/vjag151",
+    "categories": [
+      "前沿文献"
+    ],
+    "tags": [
+      "Nexus",
+      "农食系统"
+    ],
+    "articleType": "社论",
+    "summary": "社论强调，WEFE研究从识别系统联系走向治理实践，需要跨部门协调、主体参与及情境化实施；本文没有新的因果估计。",
+    "abstract": {
+      "kind": "中文概述",
+      "source": "https://academic.oup.com/ieam/article/22/6/1747/9017919",
+      "text": "社论结合既有研究和实施经验，指出模型进步需要与治理能力、主体参与及现实决策衔接。它提出从理解关联转向落实协同，属于观点论证，并非新的实证效果检验。"
+    },
+    "analysis": {
+      "background": "部门分割的管理方式难以处理农食系统的资源竞争与跨系统影响。",
+      "methods": "作者以既有研究、PRIMA计划和地域案例展开叙述性讨论，没有独立样本或因果识别设计。",
+      "conclusions": "文章主张将分析工具嵌入治理、共同设计和实施过程，强调数据、制度与地方条件。",
+      "implications": "研究可纳入主体参与和制度协调；文中案例用于论证，不应解释为已验证的普遍政策效应。"
+    },
+    "authors": [
+      "Fatma Handan Giray"
+    ],
+    "publishedDate": "2026-11-06",
+    "citation": "Giray, F. H. (2026). WEFE nexus approach in agro-food systems: From thinking to doing. Integrated Environmental Assessment and Management, 22(6), 1747–1749. https://doi.org/10.1093/inteam/vjag151",
+    "source": "出版社原文",
+    "status": "官方来源已核对",
+    "added": "2026-11-18",
+    "note": "文献类型为社论，观点论证不同于独立实证证据。"
   }
 ]
