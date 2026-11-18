@@ -38,12 +38,42 @@ for p in parts:
     elif b['type']=='table':blocks.append('<div class="table-scroll"><table>'+''.join('<tr>'+''.join(('<th>' if k==0 else '<td>')+e(v)+('</th>' if k==0 else '</td>') for v in row)+'</tr>' for k,row in enumerate(b['rows']))+'</table></div>')
    if s.get('referenceIds'):blocks.append('<section class="section-references"><h2>本节参考文献</h2><ol class="reference-list">'+''.join(reference_html(refmap[r]) for r in s['referenceIds'] if r in refmap)+'</ol><a href="references.html">查看全部参考文献 ↗</a></section>')
    page(Path('reviews/'+s['id']+'.html'),s['title'],'<a class="parent-link" href="'+c['id']+'.html">第'+str(c['number'])+'章 · '+e(c['title'])+'</a>'+''.join(blocks),toc=ctoc,prev=(c['sections'][i-1]['id']+'.html' if i else c['id']+'.html'),next=(c['sections'][i+1]['id']+'.html' if i+1<len(c['sections']) else c['id']+'.html'))
-records=json.loads((ROOT/'catalog.json').read_text());literature=[x for x in records if x['id'].startswith('L')]
+records=json.loads((ROOT/'catalog.json').read_text());recordmap={x['id']:x for x in records};literature=[x for x in records if x['id'].startswith('L')]
 page(Path('literature/index.html'),'文献精读',cards(literature,'LITERATURE'),crumb='文献精读',toc='<a href="../index.html">返回资料库</a>')
+def reading_html(sections):
+ out=[]
+ for i,section in enumerate(sections,1):
+  body='<section id="reading-'+str(i)+'"><h2>'+e(section['title'])+'</h2>'
+  for paragraph in section.get('paragraphs',[]):body+='<p>'+e(paragraph)+'</p>'
+  if section.get('equation'):body+='<pre class="equation">'+e(section['equation'])+'</pre>'
+  if section.get('table'):
+   table=section['table'];body+='<div class="table-scroll"><table><thead><tr>'+''.join('<th>'+e(h)+'</th>' for h in table['columns'])+'</tr></thead><tbody>'+''.join('<tr>'+''.join('<td>'+e(cell)+'</td>' for cell in row)+'</tr>' for row in table['rows'])+'</tbody></table></div>'
+  if section.get('sourcePages'):body+='<p class="source-note">来源位置：'+e(section['sourcePages'])+'</p>'
+  out.append(body+'</section>')
+ return ''.join(out)
 for x in literature:
  analysis=x.get('analysis',{}); body='<p class="lead">'+e(x.get('journal',''))+' · '+str(x.get('year',''))+'</p>'
+ if x.get('citation'):body+='<p class="source-note">'+e(x['citation'])+'</p>'
+ if x.get('publishedDate'):body+='<p class="source-note">在线发表：'+e(x['publishedDate'])+'</p>'
  if x.get('abstract',{}).get('text'):body+='<section id="abstract"><h2>摘要 · '+e(x['abstract'].get('kind','中文概述'))+'</h2><p>'+e(x['abstract']['text'])+'</p></section>'
  for key,title in [('background','研究背景'),('methods','研究方法'),('conclusions','主要结论'),('implications','研究启示')]:body+='<section id="'+key+'"><h2>'+title+'</h2><p>'+e(analysis.get(key,''))+'</p></section>'
+ body+=reading_html(x.get('reading',[]))
+ if x.get('relatedDataIds'):body+='<section><h2>关联论文数据集</h2>'+''.join('<p><a href="../data/'+e(r)+'.html">'+e(recordmap[r]['title'])+' ↗</a></p>' for r in x['relatedDataIds'])+'</section>'
  body+='<p class="source-note">中文导读依据研究材料整理。</p><a class="primary" href="'+e(x['url'])+'" target="_blank" rel="noopener noreferrer">阅读官方原文 ↗</a>'
- page(Path('literature/'+x['id']+'.html'),x['title'],body,crumb='文献精读',toc='<a href="../index.html">返回资料库</a>'+''.join('<a href="#'+k+'">'+t+'</a>' for k,t in [('background','研究背景'),('methods','研究方法'),('conclusions','主要结论'),('implications','研究启示')]))
+ page(Path('literature/'+x['id']+'.html'),x['title'],body,crumb='文献精读',toc='<a href="../index.html">返回资料库</a>'+''.join('<a href="#'+k+'">'+t+'</a>' for k,t in [('background','研究背景'),('methods','研究方法'),('conclusions','主要结论'),('implications','研究启示')])+''.join('<a href="#reading-'+str(i)+'">'+e(section['title'])+'</a>' for i,section in enumerate(x.get('reading',[]),1)))
 print('Built',len(list((ROOT/'reviews').glob('*.html'))),'review pages and',len(literature),'literature pages')
+
+datasets=[x for x in records if '数据资源' in x['categories']]
+body=''
+for kind in ['公开数据集','论文数据集']:
+ body+='<h2>'+kind+'</h2>'+cards([x for x in datasets if x.get('datasetType')==kind],kind)
+page(Path('data/index.html'),'数据资源',body,crumb='数据资源',toc='<a href="../index.html">返回资料库</a>')
+for x in datasets:
+ body='<p class="lead">'+e(x['datasetType'])+' · '+e(x.get('journal',''))+'</p><p>'+e(x['summary'])+'</p>'
+ for k,v in x.get('dataDetails',{}).items():body+='<h2>'+e(k)+'</h2><p>'+e(v)+'</p>'
+ if x.get('relatedLiteratureIds'):body+='<h2>关联文献精读</h2>'+''.join('<p><a href="../literature/'+e(r)+'.html">'+e(recordmap[r]['title'])+' ↗</a></p>' for r in x['relatedLiteratureIds'])
+ if x.get('links'):
+  body+='<h2>官方入口</h2>'+''.join('<p><a href="'+e(link['url'])+'" target="_blank" rel="noopener noreferrer">'+e(link['label'])+' ↗</a></p>' for link in x['links'])
+ else:body+='<a class="primary" href="'+e(x['url'])+'" target="_blank" rel="noopener noreferrer">访问官方数据入口 ↗</a>'
+ page(Path('data/'+x['id']+'.html'),x['title'],body,crumb='数据资源',toc='<a href="index.html">数据资源目录</a><a href="../index.html">返回资料库</a>')
+print('Built',len(datasets),'data pages with dataset classifications.')

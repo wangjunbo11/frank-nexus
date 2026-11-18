@@ -15,7 +15,7 @@ def year_of(text):
 def is_reference(text):
  return bool(year_of(text) and (re.match(r'^[A-ZÀ-Ž][^,\n]{1,65},\s*[A-ZÀ-Ž]\.',text) or re.match(r'^Food and Agriculture Organization',text)))
 
-def import_review(path):
+def import_review(path,supplements=None):
  body=E.fromstring(zipfile.ZipFile(path).read('word/document.xml')).find('w:body',NS);els=list(body);texts=[text_of(e) for e in els]
  start=next((i for i,t in enumerate(texts) if re.fullmatch(r'(参考文献|References|Bibliography)',t,re.I)),None)
  if start is None:
@@ -42,7 +42,7 @@ def import_review(path):
     key=url.lower() if url else norm(entry)
     refs.append({'id':'ref-'+hashlib.sha256(key.encode()).hexdigest()[:12],'text':entry.strip(),'author':surname,'year':year,'aliases':aliases,'url':url,'usedIn':[]})
  # De-duplicate by stable DOI/URL or complete bibliographic entry.
- refs=list({r['id']:r for r in refs}.values());parts=[];part=chapter=section=None;n=0
+ refs=list({r['id']:r for r in refs+(supplements or [])}.values());parts=[];part=chapter=section=None;n=0
  for idx,el in enumerate(els[:start] if start is not None else els):
   t=text_of(el)
   if not t:continue
@@ -105,14 +105,17 @@ def sync(source_root,force=False):
  changed=[k for k,v in files.items() if old.get('files',{}).get(k,{}).get('sha256')!=v['sha256']]
  removed=[k for k in old.get('files',{}) if k not in files]
  name='Nexus研究.docx'
- if name in files and (force or name in changed):
-  parts,refs,audit=import_review(source_root/name)
+ supplement_path=ROOT/'config/review-reference-supplements.json'
+ supplement_hash=hashlib.sha256(supplement_path.read_bytes()).hexdigest() if supplement_path.exists() else ''
+ if name in files and (force or name in changed or supplement_hash!=old.get('referenceSupplementHash','')):
+  supplements=json.loads(supplement_path.read_text()) if supplement_path.exists() else []
+  parts,refs,audit=import_review(source_root/name,supplements)
   (private/'citation-audit.json').write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n')
   for filename,obj in [('reviews.json',parts),('references.json',refs)]:
    (DIST/filename).write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n')
  # Keep non-review changes pending until the scheduled agent has reconciled them.
  pending=sorted(set(old.get('pendingFiles',[])+[k for k in changed if k!=name]))
- state={'sourceRootLabel':source_root.name,'files':files,'pendingFiles':pending,'removedFiles':removed}
+ state={'referenceSupplementHash':supplement_hash,'sourceRootLabel':source_root.name,'files':files,'pendingFiles':pending,'removedFiles':removed}
  state_path.write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n')
  print(json.dumps({'changed':changed,'pending':pending,'removed':removed},ensure_ascii=False))
 if __name__=='__main__':

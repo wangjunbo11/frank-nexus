@@ -75,3 +75,10 @@ GitHub Pages 官方说明：https://docs.github.com/en/pages/getting-started-wit
 ## 公开发布保护
 
 公开文件不包含旧笔记全文归档、本地文件清单和内部引用检查报告；这些资料只保存在被Git忽略的.local目录或仓库之外的本地备份。提交使用GitHub隐藏邮箱。发布前执行python3 scripts/check_publication.py，阻止私密文件路径与常见凭证被加入公开目录；CI构建也执行同一检查。GitHub密钥扫描与推送保护已开启。工作流依赖固定完整SHA，并将写入权限限定到实际需要的作业。
+
+
+## 文献精读与数据分类
+
+数据资源按datasetType区分“公开数据集”和“论文数据集”，后者通过relatedLiteratureIds与文献的relatedDataIds双向关联。数据源的公开入口不意味着论文的全部商业原始输入都可再分发。独立数据说明页由build_pages.py生成。reading字段保存精读段落、公式、结果表与PDF页码定位；只发布中文梳理，不上传用户论文全文。
+
+config/review-reference-supplements.json保存经官方元数据核实的网站补充引文。同步器把它与Word文末书目合并，保留原始Word不变；补充表哈希变更也会触发重建。无法确认的引用继续只写本地审查记录。

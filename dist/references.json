@@ -283,6 +283,19 @@
     ]
   },
   {
+    "id": "ref-ac7be418580d",
+    "text": "Stadler, K., Wood, R., Bulavskaya, T., Södersten, C.-J., Simas, M., Schmidt, S., Usubiaga, A., Acosta-Fernández, J., Kuenen, J., Bruckner, M., Giljum, S., Lutter, S., Merciai, S., Schmidt, J. H., Theurl, M. C., Plutzar, C., Kastner, T., Eisenmenger, N., Erb, K.-H., . . . Tukker, A. (2018). EXIOBASE 3: Developing a time series of detailed environmentally extended multi-regional input-output tables. Journal of Industrial Ecology, 22(3), 502–515. https://doi.org/10.1111/jiec.12715",
+    "author": "Stadler",
+    "year": "2018",
+    "aliases": [
+      "Stadler"
+    ],
+    "url": "https://doi.org/10.1111/jiec.12715",
+    "usedIn": [
+      "chapter-6-section-2"
+    ]
+  },
+  {
     "id": "ref-ab631fd15132",
     "text": "Springmann, M., Clark, M., Mason-D’Croz, D., Wiebe, K., Bodirsky, B. L., Lassaletta, L., de Vries, W., Vermeulen, S. J., Herrero, M., Carlson, K. M., Jonell, M., Troell, M., DeClerck, F., Gordon, L. J., Zurayk, R., Scarborough, P., Rayner, M., Loken, B., Fanzo, J., … Willett, W. (2018). Options for keeping the food system within environmental limits. Nature, 562(7728), 519–525. https://doi.org/10.1038/s41586-018-0594-0",
     "author": "Springmann",
@@ -430,5 +443,66 @@
     "usedIn": [
       "chapter-3-section-1"
     ]
+  },
+  {
+    "id": "ref-8d20bb339d2a",
+    "text": "Hirth, L. (2013). The market value of variable renewables. Energy Economics, 38, 218-236. https://doi.org/10.1016/j.eneco.2013.02.004",
+    "author": "Hirth",
+    "year": "2013",
+    "aliases": [
+      "Hirth"
+    ],
+    "url": "https://doi.org/10.1016/j.eneco.2013.02.004",
+    "usedIn": [
+      "chapter-4-section-3"
+    ],
+    "verifiedSource": "https://api.crossref.org/works/10.1016%2Fj.eneco.2013.02.004",
+    "origin": "网站补充核对"
+  },
+  {
+    "id": "ref-36a05a3bdd6d",
+    "text": "Howells, M., Hermann, S., Welsch, M., Bazilian, M., Segerström, R., Alfstad, T., Gielen, D., Rogner, H., Fischer, G., van Velthuizen, H., Wiberg, D., Young, C., Roehrl, R. A., Mueller, A., Steduto, P., & Ramma, I. (2013). Integrated analysis of climate change, land-use, energy and water strategies. Nature Climate Change, 3(7), 621-626. https://doi.org/10.1038/nclimate1789",
+    "author": "Howells",
+    "year": "2013",
+    "aliases": [
+      "Howells"
+    ],
+    "url": "https://doi.org/10.1038/nclimate1789",
+    "usedIn": [
+      "chapter-4-section-6"
+    ],
+    "verifiedSource": "https://api.crossref.org/works/10.1038%2Fnclimate1789",
+    "origin": "网站补充核对"
+  },
+  {
+    "id": "ref-4bd61e81faa7",
+    "text": "Jones, J. W., Hoogenboom, G., Porter, C. H., Boote, K. J., Batchelor, W. D., Hunt, L. A., Wilkens, P. W., Singh, U., Gijsman, A. J., & Ritchie, J. T. (2003). The DSSAT cropping system model. European Journal of Agronomy, 18(3-4), 235-265. https://doi.org/10.1016/s1161-0301(02)00107-7",
+    "author": "Jones",
+    "year": "2003",
+    "aliases": [
+      "Jones"
+    ],
+    "url": "https://doi.org/10.1016/s1161-0301(02)00107-7",
+    "usedIn": [
+      "chapter-5-section-2"
+    ],
+    "verifiedSource": "https://api.crossref.org/works/10.1016%2FS1161-0301%2802%2900107-7",
+    "origin": "网站补充核对"
+  },
+  {
+    "id": "ref-96a9ea460d50",
+    "text": "Schlenker, W., & Roberts, M. J. (2009). Nonlinear temperature effects indicate severe damages to U.S. crop yields under climate change. Proceedings of the National Academy of Sciences, 106(37), 15594-15598. https://doi.org/10.1073/pnas.0906865106",
+    "author": "Schlenker",
+    "year": "2009",
+    "aliases": [
+      "Schlenker"
+    ],
+    "url": "https://doi.org/10.1073/pnas.0906865106",
+    "usedIn": [
+      "chapter-5-section-3",
+      "chapter-5-section-7"
+    ],
+    "verifiedSource": "https://api.crossref.org/works/10.1073%2Fpnas.0906865106",
+    "origin": "网站补充核对"
   }
 ]
