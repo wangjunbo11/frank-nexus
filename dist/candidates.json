@@ -65,5 +65,29 @@
     "journalPriority": true,
     "status": "候选",
     "reason": "官方搜索记录标为Editorial；全文访问受限，保留候选，不补写实证结论。"
+  },
+  {
+    "id": "A487a3e752489",
+    "title": "Competing concepts of food security in a fragmented geopolitical landscape",
+    "url": "https://doi.org/10.1038/s43016-026-01456-4",
+    "journal": "Nature Food",
+    "year": 2026,
+    "publishedDate": "2026-11-18",
+    "discovered": "2026-11-20",
+    "journalPriority": true,
+    "status": "候选",
+    "reason": "官方检索记录已定位；出版商全文或摘要访问受限，尚不足以核实方法与结论，暂不收入正式库。"
+  },
+  {
+    "id": "A9912a73c59a9",
+    "title": "Enabling climate action: A nexus approach for delivering co-benefits across biodiversity, water, food, and health",
+    "url": "https://doi.org/10.1016/j.isci.2026.117734",
+    "journal": "iScience",
+    "year": 2026,
+    "publishedDate": "2026-11-20",
+    "discovered": "2026-11-20",
+    "journalPriority": true,
+    "status": "候选",
+    "reason": "官方检索记录已定位；出版商全文或摘要访问受限，尚不足以核实方法与结论，暂不收入正式库。"
   }
 ]

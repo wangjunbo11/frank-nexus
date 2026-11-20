@@ -9,7 +9,8 @@
     ],
     "url": "https://doi.org/10.1016/j.nexus.2026.100746",
     "usedIn": [
-      "chapter-3-section-3"
+      "chapter-3-section-3",
+      "chapter-6-section-3"
     ]
   },
   {
@@ -503,6 +504,21 @@
       "chapter-5-section-7"
     ],
     "verifiedSource": "https://api.crossref.org/works/10.1073%2Fpnas.0906865106",
+    "origin": "网站补充核对"
+  },
+  {
+    "id": "ref-ef6e774fa3bc",
+    "text": "Mavrotas, G. (2009). Effective implementation of the ε-constraint method in Multi-Objective Mathematical Programming problems. Applied Mathematics and Computation, 213(2), 455–465. https://doi.org/10.1016/j.amc.2009.03.037",
+    "author": "Mavrotas",
+    "year": "2009",
+    "aliases": [
+      "Mavrotas"
+    ],
+    "url": "https://doi.org/10.1016/j.amc.2009.03.037",
+    "usedIn": [
+      "chapter-6-section-4"
+    ],
+    "verifiedSource": "https://dspace.lib.ntua.gr/xmlui/handle/123456789/19533?show=full",
     "origin": "网站补充核对"
   }
 ]
