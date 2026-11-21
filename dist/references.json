@@ -350,6 +350,19 @@
     ]
   },
   {
+    "id": "ref-a435b6c8e911",
+    "text": "Vinca, A., Parkinson, S., Byers, E., Burek, P., Khan, Z., Krey, V., Diuana, F. A., Wang, Y., Ilyas, A., Köberle, A. C., Staffell, I., Pfenninger, S., Muhammad, A., Rowe, A., Schaeffer, R., Rao, N. D., Wada, Y., Djilali, N., & Riahi, K. (2020). The NExus Solutions Tool (NEST) v1.0: An open platform for optimizing multi-scale energy–water–land system transformations. Geoscientific Model Development, 13(3), 1095–1121. https://doi.org/10.5194/gmd-13-1095-2020",
+    "author": "Vinca",
+    "year": "2020",
+    "aliases": [
+      "Vinca"
+    ],
+    "url": "https://doi.org/10.5194/gmd-13-1095-2020",
+    "usedIn": [
+      "chapter-6-section-6"
+    ]
+  },
+  {
     "id": "ref-2295a3993440",
     "text": "Wang, H., Zhang, Z., Wu, X., Xu, J., Han, J., Zhuang, H., Li, S., Song, J., Cheng, F., Piao, S., & Tao, F. (2026). Spatially explicit temperature optima improve climate impact assessment of global crop productivity. Nature Communications, 17, Article 7989. https://doi.org/10.1038/s41467-026-74564-1",
     "author": "Wang",
@@ -443,6 +456,19 @@
     "url": "https://doi.org/10.1038/s43016-026-01455-5",
     "usedIn": [
       "chapter-3-section-1"
+    ]
+  },
+  {
+    "id": "ref-9bdcc63f052a",
+    "text": "Zhang, Y., & Wang, Y. (2024). Water–energy–food nexus in the Yellow River Basin of China under the influence of multiple policies. Land, 13(9), Article 1356. https://doi.org/10.3390/land13091356",
+    "author": "Zhang",
+    "year": "2024",
+    "aliases": [
+      "Zhang"
+    ],
+    "url": "https://doi.org/10.3390/land13091356",
+    "usedIn": [
+      "chapter-6-section-5"
     ]
   },
   {

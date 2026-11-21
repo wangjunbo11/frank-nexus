@@ -1721,5 +1721,31 @@
     "status": "官方来源已核对",
     "added": "2026-11-18",
     "note": "文献类型为社论，观点论证不同于独立实证证据。"
+  },
+  {
+    "id": "P109",
+    "title": "Tracking ecosystem-based adaptation indicators of the global goal on adaptation",
+    "url": "https://doi.org/10.4060/ce2418en",
+    "year": 2026,
+    "journal": "FAO · 技术报告",
+    "categories": [
+      "政策报告"
+    ],
+    "tags": [
+      "气候变化",
+      "Nexus",
+      "粮食安全"
+    ],
+    "scope": "全球政策",
+    "summary": "FAO提出利用森林、湿地及生态修复的既有监测能力，连接生态状态与生计、脆弱性和适应能力信息，支持全球适应目标的国家监测。强调面积改善不能单独证明适应成效，归因与跨机构数据整合仍有困难。属于技术建议，非约束性法规。",
+    "status": "官方发布说明已核对",
+    "note": "依据FAO于2026-11-12发布的官方说明梳理；说明预告11月19日发布。报告DOI已由官方链接确认，未据此声称已逐页审阅报告全文。",
+    "links": [
+      {
+        "label": "FAO官方说明",
+        "url": "https://www.fao.org/ecosystem-restoration-monitoring/news/news-detail/new-fao-paper-highlights-opportunities-to-track-progress-on-ecosystem-based-climate-adaptation/en"
+      }
+    ],
+    "added": "2026-11-21"
   }
 ]
