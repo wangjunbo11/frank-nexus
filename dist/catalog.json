@@ -1747,5 +1747,91 @@
       }
     ],
     "added": "2026-11-21"
+  },
+  {
+    "id": "L036",
+    "title": "China’s City-level CO2 emissions from power sector between 2000 and 2019",
+    "year": 2026,
+    "journal": "Scientific Data",
+    "authors": [
+      "Boyang Chen",
+      "Ming Gao",
+      "Yu Liu",
+      "Jiafu An",
+      "Zhengxian Zhang"
+    ],
+    "publishedDate": "2026-06-01",
+    "url": "https://doi.org/10.1038/s41597-026-07484-w",
+    "categories": [
+      "研究方法"
+    ],
+    "articleType": "数据描述论文",
+    "tags": [
+      "Nexus",
+      "气候变化"
+    ],
+    "summary": "构建中国352个城市2000—2019年年度发电量与电力部门CO₂排放估算数据，共7,040条城市—年份记录。采用PSO-BP模型下推城市发电量，再结合省级排放因子核算排放。",
+    "abstract": {
+      "text": "构建中国352个城市2000—2019年年度发电量与电力部门CO₂排放估算数据，共7,040条城市—年份记录。采用PSO-BP模型下推城市发电量，再结合省级排放因子核算排放。",
+      "kind": "中文概述",
+      "source": "https://doi.org/10.1038/s41597-026-07484-w"
+    },
+    "analysis": {
+      "background": "城市电力减排研究需要一致的长期细尺度数据，省级统计不足以直接支持城市间比较。",
+      "methods": "以PSO-BP神经网络学习省级发电量与社会经济指标的关系，再推估城市发电量。假设城市使用所属省份排放因子，且2000—2019年因子保持固定，核算CO₂排放。",
+      "conclusions": "形成352个城市20年的7,040条记录。作者报告训练集和测试集R²分别为98.03%和97.71%；这不等于所有城市估计均经独立实测验证。",
+      "implications": "适合城市低碳与Nexus研究；需审查省到市关系迁移和固定排放因子假设。电力部门排放不能当作城市全行业排放，模型估算也不直接识别政策因果效应。"
+    },
+    "relatedDataIds": [
+      "D008"
+    ],
+    "status": "论文原文已核对",
+    "source": "用户提供的论文原文",
+    "added": "2026-11-22"
+  },
+  {
+    "id": "D008",
+    "title": "中国352个城市发电量与电力部门CO₂排放（2000—2019）",
+    "url": "https://doi.org/10.6084/m9.figshare.30338773",
+    "year": 2026,
+    "journal": "Figshare · 论文数据与代码",
+    "categories": [
+      "数据资源"
+    ],
+    "datasetType": "论文数据集",
+    "tags": [
+      "Nexus",
+      "气候变化"
+    ],
+    "summary": "构建中国352个城市2000—2019年年度发电量与电力部门CO₂排放估算数据，共7,040条城市—年份记录。采用PSO-BP模型下推城市发电量，再结合省级排放因子核算排放。",
+    "relatedLiteratureIds": [
+      "L036"
+    ],
+    "dataDetails": {
+      "对应论文": "Chen等（2026），Scientific Data 13:813；DOI 10.1038/s41597-026-07484-w。",
+      "空间与时间": "中国352个城市；2000—2019年；年度频率；城市范围依据2019年标准地图。",
+      "文件与变量": "Power generation and carbon emission of cities in China.xlsx；7,040条记录，含发电量与电力部门CO₂排放。变量单位以工作表为准。",
+      "方法与边界": "PSO-BP估算城市发电量，再结合省级排放因子核算排放；假设期间排放因子固定。非城市全行业排放清单。",
+      "处理说明": "乌鲁木齐2013年发电量预测为负，作者用2012与2014年均值替换。",
+      "代码与复现": "MATLAB及Excel；代码DOI 10.6084/m9.figshare.30338803。本网站未执行复现代码或逐表核对数据文件。",
+      "版本、许可与访问": "论文声明数据、代码公开可用；Figshare当前访问受限，版本号及各自独立许可尚无法核实，使用前以记录页面为准，不套用论文许可。"
+    },
+    "links": [
+      {
+        "label": "Figshare数据下载",
+        "url": "https://doi.org/10.6084/m9.figshare.30338773"
+      },
+      {
+        "label": "Figshare MATLAB与Excel代码",
+        "url": "https://doi.org/10.6084/m9.figshare.30338803"
+      },
+      {
+        "label": "对应论文",
+        "url": "https://doi.org/10.1038/s41597-026-07484-w"
+      }
+    ],
+    "status": "论文数据声明已核对",
+    "note": "依据论文第5—7页整理；提供来源链接，不转存原始论文或数据。",
+    "added": "2026-11-22"
   }
 ]
