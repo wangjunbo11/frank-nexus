@@ -10,7 +10,8 @@
     "url": "https://doi.org/10.1016/j.nexus.2026.100746",
     "usedIn": [
       "chapter-3-section-3",
-      "chapter-6-section-3"
+      "chapter-6-section-3",
+      "chapter-6-section-7"
     ]
   },
   {
@@ -23,6 +24,19 @@
     ],
     "url": "",
     "usedIn": []
+  },
+  {
+    "id": "ref-d4ef9c867263",
+    "text": "Bound, J., Brown, C., & Mathiowetz, N. (2001). Measurement error in survey data. In J. J. Heckman & E. E. Leamer (Eds.), Handbook of econometrics (Vol. 5, pp. 3705–3843). Elsevier. https://doi.org/10.1016/S1573-4412(01)05012-7",
+    "author": "Bound",
+    "year": "2001",
+    "aliases": [
+      "Bound"
+    ],
+    "url": "https://doi.org/10.1016/S1573-4412(01)05012-7",
+    "usedIn": [
+      "chapter-7-intro"
+    ]
   },
   {
     "id": "ref-6763d6b2dd2a",
@@ -87,7 +101,8 @@
     ],
     "url": "https://doi.org/10.5194/nhess-24-1871-2024",
     "usedIn": [
-      "chapter-6-section-1"
+      "chapter-6-section-1",
+      "chapter-6-section-7"
     ]
   },
   {
@@ -128,6 +143,17 @@
     "usedIn": [
       "chapter-3-section-2"
     ]
+  },
+  {
+    "id": "ref-f40100f31f1c",
+    "text": "Hersbach, H., Bell, B., Berrisford, P., Hirahara, S., Horányi, A., Muñoz-Sabater, J., Nicolas, J., Peubey, C., Radu, R., Schepers, D., Simmons, A., Soci, C., Abdalla, S., Abellan, X., Balsamo, G., Bechtold, P., Biavati, G., Bidlot, J., Bonavita, M., . . . Thépaut, J.-N. (2020). The ERA5 global reanalysis. Quarterly Journal of the Royal Meteorological Society, 146(730), 1999–2049. https://doi.org/10.1002/qj.3803",
+    "author": "Hersbach",
+    "year": "2020",
+    "aliases": [
+      "Hersbach"
+    ],
+    "url": "https://doi.org/10.1002/qj.3803",
+    "usedIn": []
   },
   {
     "id": "ref-1cac34df23b6",
@@ -205,6 +231,22 @@
     ]
   },
   {
+    "id": "ref-b051fdf6d6cb",
+    "text": "Mavrotas, G. (2009). Effective implementation of the ε-constraint method in Multi-Objective Mathematical Programming problems. Applied Mathematics and Computation, 213(2), 455–465. https://doi.org/10.1016/j.amc.2009.03.037",
+    "author": "Mavrotas",
+    "year": "2009",
+    "aliases": [
+      "Mavrotas"
+    ],
+    "url": "https://doi.org/10.1016/j.amc.2009.03.037",
+    "usedIn": [
+      "chapter-6-section-4",
+      "chapter-6-section-7"
+    ],
+    "verifiedSource": "https://dspace.lib.ntua.gr/xmlui/handle/123456789/19533?show=full",
+    "origin": "网站补充核对"
+  },
+  {
     "id": "ref-44d0483345fd",
     "text": "Mendelsohn, R., Nordhaus, W. D., & Shaw, D. (1994). The impact of global warming on agriculture: A Ricardian analysis. American Economic Review, 84(4), 753–771. https://www.jstor.org/stable/2118029",
     "author": "Mendelsohn",
@@ -217,6 +259,17 @@
       "chapter-5-section-4",
       "chapter-5-section-7"
     ]
+  },
+  {
+    "id": "ref-4cfb9c1496f4",
+    "text": "Muñoz-Sabater, J., Dutra, E., Agustí-Panareda, A., Albergel, C., Arduini, G., Balsamo, G., Boussetta, S., Choulga, M., Harrigan, S., Hersbach, H., Martens, B., Miralles, D. G., Piles, M., Rodríguez-Fernández, N. J., Zsoter, E., Buontempo, C., & Thépaut, J.-N. (2021). ERA5-Land: A state-of-the-art global reanalysis dataset for land applications. Earth System Science Data, 13(9), 4349–4383. https://doi.org/10.5194/essd-13-4349-2021",
+    "author": "Muñoz-Sabater",
+    "year": "2021",
+    "aliases": [
+      "Muñoz-Sabater"
+    ],
+    "url": "https://doi.org/10.5194/essd-13-4349-2021",
+    "usedIn": []
   },
   {
     "id": "ref-645ccdcb3740",
@@ -258,6 +311,19 @@
     ]
   },
   {
+    "id": "ref-432af33f0ca6",
+    "text": "Park, C., Proctor, J., & Huybers, P. (2026). Divergent estimates of agricultural climate sensitivity from survey and satellite yield data. Environmental Research Letters, 21(15), Article 154044. https://doi.org/10.1088/1748-9326/ae90c4",
+    "author": "Park",
+    "year": "2026",
+    "aliases": [
+      "Park"
+    ],
+    "url": "https://doi.org/10.1088/1748-9326/ae90c4",
+    "usedIn": [
+      "chapter-7-intro"
+    ]
+  },
+  {
     "id": "ref-0263a511cefd",
     "text": "Pradhan, P., Costa, L., Rybski, D., Lucht, W., & Kropp, J. P. (2017). A systematic study of Sustainable Development Goal (SDG) interactions. Earth's Future, 5(11), 1169–1179. https://doi.org/10.1002/2017EF000632",
     "author": "Pradhan",
@@ -293,7 +359,8 @@
     ],
     "url": "https://doi.org/10.1111/jiec.12715",
     "usedIn": [
-      "chapter-6-section-2"
+      "chapter-6-section-2",
+      "chapter-6-section-7"
     ]
   },
   {
@@ -359,7 +426,8 @@
     ],
     "url": "https://doi.org/10.5194/gmd-13-1095-2020",
     "usedIn": [
-      "chapter-6-section-6"
+      "chapter-6-section-6",
+      "chapter-6-section-7"
     ]
   },
   {
@@ -468,7 +536,8 @@
     ],
     "url": "https://doi.org/10.3390/land13091356",
     "usedIn": [
-      "chapter-6-section-5"
+      "chapter-6-section-5",
+      "chapter-6-section-7"
     ]
   },
   {
@@ -530,21 +599,6 @@
       "chapter-5-section-7"
     ],
     "verifiedSource": "https://api.crossref.org/works/10.1073%2Fpnas.0906865106",
-    "origin": "网站补充核对"
-  },
-  {
-    "id": "ref-ef6e774fa3bc",
-    "text": "Mavrotas, G. (2009). Effective implementation of the ε-constraint method in Multi-Objective Mathematical Programming problems. Applied Mathematics and Computation, 213(2), 455–465. https://doi.org/10.1016/j.amc.2009.03.037",
-    "author": "Mavrotas",
-    "year": "2009",
-    "aliases": [
-      "Mavrotas"
-    ],
-    "url": "https://doi.org/10.1016/j.amc.2009.03.037",
-    "usedIn": [
-      "chapter-6-section-4"
-    ],
-    "verifiedSource": "https://dspace.lib.ntua.gr/xmlui/handle/123456789/19533?show=full",
     "origin": "网站补充核对"
   }
 ]

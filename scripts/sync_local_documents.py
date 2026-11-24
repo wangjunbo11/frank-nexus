@@ -42,7 +42,14 @@ def import_review(path,supplements=None):
     key=url.lower() if url else norm(entry)
     refs.append({'id':'ref-'+hashlib.sha256(key.encode()).hexdigest()[:12],'text':entry.strip(),'author':surname,'year':year,'aliases':aliases,'url':url,'usedIn':[]})
  # De-duplicate by stable DOI/URL or complete bibliographic entry.
- refs=list({r['id']:r for r in refs+(supplements or [])}.values());parts=[];part=chapter=section=None;n=0
+ merged={}
+ for ref in refs+(supplements or []):
+  key=(ref.get('url') or norm(ref['text'])).lower().rstrip('/')
+  if key in merged:
+   previous=merged[key]
+   ref={**previous,**ref,'id':previous['id'],'aliases':list(dict.fromkeys(previous['aliases']+ref['aliases'])),'usedIn':[]}
+  merged[key]=ref
+ refs=list(merged.values());parts=[];part=chapter=section=None;n=0
  for idx,el in enumerate(els[:start] if start is not None else els):
   t=text_of(el)
   if not t:continue
