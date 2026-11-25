@@ -1833,5 +1833,50 @@
     "status": "论文数据声明已核对",
     "note": "依据论文第5—7页整理；提供来源链接，不转存原始论文或数据。",
     "added": "2026-11-22"
+  },
+  {
+    "id": "L037",
+    "title": "From global solution space to local strategies: integrating adaptation pathways and global scenarios for water scarcity",
+    "year": 2026,
+    "journal": "npj Climate Action",
+    "url": "https://www.nature.com/articles/s44168-026-00439-2",
+    "publishedDate": "2026-11-07",
+    "authors": [
+      "Julius Schlumberger",
+      "Edward Byers",
+      "Jheuel Carter-Guy",
+      "Simon N. Gosling",
+      "Marjolijn Haasnoot",
+      "Aster Tesfaye Hordofa",
+      "Marjolein Mens",
+      "Ann-Kathrin Petersen",
+      "Franziska Piontek",
+      "Adriano Vinca"
+    ],
+    "categories": [
+      "前沿文献",
+      "研究方法"
+    ],
+    "tags": [
+      "Nexus",
+      "气候变化",
+      "粮食安全"
+    ],
+    "articleType": "适应路径与情景框架研究",
+    "summary": "研究在加勒比小岛屿国家、埃塞俄比亚农村与莱茵—默兹三角洲三个案例中，将适应路径与气候、社会经济情景衔接，比较措施的可行条件及治理假设，支持缺水适应规划。",
+    "abstract": {
+      "text": "研究在加勒比小岛屿国家、埃塞俄比亚农村与莱茵—默兹三角洲三个案例中，将适应路径与气候、社会经济情景衔接，比较措施的可行条件及治理假设，支持缺水适应规划。",
+      "kind": "中文概述",
+      "source": "https://www.nature.com/articles/s44168-026-00439-2"
+    },
+    "analysis": {
+      "background": "缺水适应连接供水、能源与农业需求。地方措施的技术效果之外，社会经济条件和治理方式也决定路径是否可实施。",
+      "methods": "在三个差异化案例中应用情景嵌入式适应路径框架，按情景边界及战略、价值取向、决策权结构评估措施；分别用于路径生成、叙事检验和既有路径评价。",
+      "conclusions": "框架为生成路径和检验假设提供共同参照；全球措施分类仍需按地方制度条件修订。措施强度、转换顺序与情景中立分析尚需完善。",
+      "implications": "可用于Nexus研究中把资源约束与政策实施条件连接起来。其路径比较属于框架应用，不能当作已实施措施的因果效果或统一最优方案。"
+    },
+    "status": "官方摘要与正文已核对",
+    "source": "出版商开放页面",
+    "added": "2026-11-25"
   }
 ]
