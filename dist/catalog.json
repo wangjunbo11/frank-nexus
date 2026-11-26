@@ -1878,5 +1878,100 @@
     "status": "官方摘要与正文已核对",
     "source": "出版商开放页面",
     "added": "2026-11-25"
+  },
+  {
+    "id": "L038",
+    "title": "Constructing Prospective Multiregional Input-Output Tables via Scenario-Constrained Optimization for Future Environmental Footprint Assessment",
+    "year": 2026,
+    "journal": "Environmental Science & Technology",
+    "url": "https://doi.org/10.1021/acs.est.6c10592",
+    "authors": [
+      "Sidi Peng",
+      "Vassilis Daioglou",
+      "Konstantin Stadler",
+      "Ramin Roshandel",
+      "Martin Bruckner",
+      "Stephan Pfister"
+    ],
+    "publishedDate": "2026-11-02",
+    "categories": [
+      "研究方法"
+    ],
+    "tags": [
+      "Nexus",
+      "气候变化",
+      "农食系统"
+    ],
+    "summary": "将EXIOBASE 2019与IMAGE的2035年SSP2情景衔接，构建12套前瞻性MRIO表，比较历史经济结构保真度与未来情景一致性的权衡。",
+    "abstract": {
+      "text": "将EXIOBASE 2019与IMAGE的2035年SSP2情景衔接，构建12套前瞻性MRIO表，比较历史经济结构保真度与未来情景一致性的权衡。",
+      "kind": "中文概述",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13784140/"
+    },
+    "analysis": {
+      "background": "历史MRIO能够追踪跨国供应链足迹，但难直接描述未来产业转型。IAM情景与MRIO的分类、技术和交易细节需要协调。",
+      "methods": "对齐EXIOBASE与IMAGE分类，先更新投入结构和最终需求形成列昂惕夫预测，再分别或累积施加GDP、增加值、部门产出与能源农业供需约束，以最小系数偏离构建优化表。",
+      "conclusions": "12套表包括1套基准和11套优化结果。能源与农业消费约束引起的结构调整最大；地区碳足迹份额总体稳定，但地区内部门归因与高增长热点排序对约束选择敏感。",
+      "implications": "适合未来Nexus足迹和供应链情景研究。比较多个约束版本，区分情景一致性与预测准确性；结果受SSP2、基年差异与优化目标影响，不是2035年实测值或政策因果效应。"
+    },
+    "relatedDataIds": [
+      "D009"
+    ],
+    "links": [
+      {
+        "label": "开放论文全文（PMC）",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13784140/"
+      }
+    ],
+    "status": "原文与作者数据已核对",
+    "source": "开放原文、Crossref及Zenodo记录",
+    "note": "在线发表2026-11-02；卷期60(45)，32575–32588。未执行优化复现。",
+    "added": "2026-11-26"
+  },
+  {
+    "id": "D009",
+    "title": "EXIOBASE × IMAGE：2035年SSP2前瞻性MRIO表（12套）",
+    "url": "https://zenodo.org/records/23882016",
+    "year": 2026,
+    "journal": "Zenodo · 论文数据",
+    "categories": [
+      "数据资源"
+    ],
+    "tags": [
+      "Nexus",
+      "气候变化",
+      "农食系统"
+    ],
+    "datasetType": "论文数据集",
+    "summary": "12套环境扩展MRIO情景表，覆盖20地区、70部门，即1,400个地区—部门组合，包含交易、最终需求、增加值及温室气体排放强度。",
+    "relatedLiteratureIds": [
+      "L038"
+    ],
+    "dataDetails": {
+      "对应论文": "Peng等（2026），Environmental Science & Technology；DOI 10.1021/acs.est.6c10592。",
+      "版本与日期": "v0.1.1；2026-11-02；DOI 10.5281/zenodo.23882016。作者注明仍在开发，后续结构及数值可能调整。",
+      "空间与时间": "全球20地区×70部门；基准为EXIOBASE 2019，目标年2035，IMAGE SSP2。非连续年度实测面板。",
+      "文件与结构": "12个ZIP及README；各版本含Z.txt（1400×1400交易流）、Y.txt（1400×20最终需求）、V.txt（1×1400增加值）、S.txt（4×1400直接排放强度），均为制表符分隔文本。",
+      "单位": "货币量为十亿2010年美元；S为Mt CO₂-eq/十亿2010年美元，包括GWP100折算的CO₂、CH₄、N₂O及合计。合计不可再次加至三个分项。",
+      "版本比较": "1套列昂惕夫基准与11套优化表，分别及累积施加约束；并非12种独立SSP情景。Z为绝对交易流，需除以列总产出得到技术系数A。",
+      "开放与许可": "公开下载，CC BY-NC-SA 4.0：署名、非商业性使用、相同方式共享；不自动扩展至其他EXIOBASE或IMAGE源数据。",
+      "适用与复现": "适合未来足迹、隐含贸易及约束敏感性分析。已核对README和元数据，未下载全部矩阵或运行优化；不将本记录视为完整优化代码包，重建需另查原始输入和求解环境。"
+    },
+    "links": [
+      {
+        "label": "Zenodo版本与下载",
+        "url": "https://zenodo.org/records/23882016"
+      },
+      {
+        "label": "数据格式与核算说明",
+        "url": "https://zenodo.org/records/23882016/files/README.md"
+      },
+      {
+        "label": "对应论文全文",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13784140/"
+      }
+    ],
+    "status": "作者数据记录已核对",
+    "added": "2026-11-26"
   }
 ]
