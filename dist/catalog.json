@@ -1973,5 +1973,95 @@
     ],
     "status": "作者数据记录已核对",
     "added": "2026-11-26"
+  },
+  {
+    "id": "L039",
+    "title": "Within-country income inequality alters the quantity and composition of projected global food demand",
+    "year": 2026,
+    "journal": "Nature Food",
+    "url": "https://www.nature.com/articles/s43016-026-01469-z",
+    "publishedDate": "2026-11-26",
+    "authors": [
+      "Kaia Waxenberg",
+      "Bart Arendarczyk",
+      "Vera Eory",
+      "Roslyn Henry",
+      "Peter Alexander"
+    ],
+    "categories": [
+      "前沿文献"
+    ],
+    "tags": [
+      "粮食安全",
+      "农食系统",
+      "气候变化"
+    ],
+    "summary": "将国内收入十分位分布纳入LandSyMM，比较2020—2100年五组SSP—RCP情景。收入分组改变粮食需求规模和构成，动物性食品尤其敏感。",
+    "abstract": {
+      "text": "将国内收入十分位分布纳入LandSyMM，比较2020—2100年五组SSP—RCP情景。收入分组改变粮食需求规模和构成，动物性食品尤其敏感。",
+      "kind": "中文概述",
+      "source": "https://www.nature.com/articles/s43016-026-01469-z"
+    },
+    "analysis": {
+      "background": "仅用人均收入预测食物需求会遗漏国内分配差异，影响未来膳食与土地需求评估。",
+      "methods": "在LandSyMM中按收入十分位建模，比较五组情景中收入分组与全国均值两种设定；模型联系食物价格、生产、贸易和土地利用。",
+      "conclusions": "SSP3下，2100年动物性热量需求较全国均值模型低10.4%，总热量低3.29%。这是配对模型设定差异，非现实政策处理效应。",
+      "implications": "Nexus需求情景应考虑收入异质性。这里需求含零售及家庭浪费，接近食物可获得量，不等于实际摄入；结果更宜作全球和区域解释。"
+    },
+    "relatedDataIds": [
+      "D010"
+    ],
+    "status": "出版商摘要与正文已核对",
+    "source": "Nature Food开放原文",
+    "added": "2026-11-26"
+  },
+  {
+    "id": "D010",
+    "title": "收入不平等与未来全球粮食需求：国家及全球情景输出",
+    "url": "https://doi.org/10.6084/m9.figshare.28399967",
+    "year": 2026,
+    "journal": "Figshare · 论文数据与代码",
+    "categories": [
+      "数据资源"
+    ],
+    "datasetType": "论文数据集",
+    "tags": [
+      "粮食安全",
+      "农食系统",
+      "气候变化"
+    ],
+    "summary": "对应Nature Food研究的全球和国家粮食需求情景输出，附作者分析与绘图脚本入口；用于比较收入分布对未来需求及构成的影响。",
+    "relatedLiteratureIds": [
+      "L039"
+    ],
+    "dataDetails": {
+      "对应论文": "Waxenberg等（2026）；DOI 10.1038/s43016-026-01469-z。",
+      "变量与覆盖": "全球与国家年度粮食需求输出；论文模拟2020—2100年、五组SSP—RCP情景。具体字段、单位和文件版本以下载记录为准，不是观测消费面板。",
+      "版本与发布日期": "论文发表于2026-11-26；Figshare DOI由论文直接确认，其版本及数据发布日期尚未独立读取。",
+      "数据与代码": "Figshare提供需求输出；作者GitHub提供分析与绘图资料，PLUM模型与文档另托管于ECDF。",
+      "输入来源": "论文列出FAOSTAT、世界银行、IIASA SSP及LPJ-GUESS产量潜力数据（Zenodo DOI 10.5281/zenodo.18302924）。",
+      "许可与限制": "论文声明公开可用；Figshare本次返回403，未核实其独立许可，不将论文开放许可套用于数据或代码。完整PLUM运行需要GAMS许可。",
+      "适用与复现": "适合全球和区域粮食需求情景、收入分配与土地利用研究。作者仓库说明部分大型结果位于EDDIE集群，不保证仅下载GitHub即可完整复现；未执行外部代码。"
+    },
+    "links": [
+      {
+        "label": "Figshare需求输出",
+        "url": "https://doi.org/10.6084/m9.figshare.28399967"
+      },
+      {
+        "label": "作者分析与绘图代码",
+        "url": "https://github.com/kaiawaxenberg/foodDemandIncomeInequality"
+      },
+      {
+        "label": "PLUM模型及文档",
+        "url": "https://git.ecdf.ed.ac.uk/lul/plumv2"
+      },
+      {
+        "label": "对应论文与数据声明",
+        "url": "https://www.nature.com/articles/s43016-026-01469-z"
+      }
+    ],
+    "status": "论文数据声明与作者仓库已核对",
+    "added": "2026-11-26"
   }
 ]
