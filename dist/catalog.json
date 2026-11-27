@@ -2063,5 +2063,86 @@
     ],
     "status": "论文数据声明与作者仓库已核对",
     "added": "2026-11-26"
+  },
+  {
+    "id": "L040",
+    "title": "Changing mercury exposure in the Yukon Watershed linked to traditional diet shifts and permafrost thaw",
+    "year": 2026,
+    "journal": "Nature Communications",
+    "url": "https://www.nature.com/articles/s41467-026-79288-w",
+    "publishedDate": "2026-11-27",
+    "authors": [
+      "M. Isabel Smith",
+      "Emily A. Seelen",
+      "Edda A. Mutter",
+      "Anna R. Godduhn",
+      "Marie E. Lowe",
+      "John S. Magyar",
+      "A. Joshua West"
+    ],
+    "categories": [
+      "前沿文献"
+    ],
+    "tags": [
+      "Nexus",
+      "气候变化",
+      "粮食安全"
+    ],
+    "summary": "育空河流域研究结合膳食调查与生计捕捞数据，模拟传统食物替代和冻土融化引起的鱼类汞增加如何共同影响膳食暴露，连接气候、水生态与粮食安全。",
+    "abstract": {
+      "text": "育空河流域研究结合膳食调查与生计捕捞数据，模拟传统食物替代和冻土融化引起的鱼类汞增加如何共同影响膳食暴露，连接气候、水生态与粮食安全。",
+      "kind": "中文概述",
+      "source": "https://www.nature.com/articles/s41467-026-79288-w"
+    },
+    "analysis": {
+      "background": "北极变暖既改变传统渔业资源，也可能释放冻土汞，两条路径可能共同影响地方食物系统。",
+      "methods": "结合膳食调查、2010—2018年捕捞资料及食物汞含量，建立假设性膳食模型，比较鲑鱼替代、环境汞增加及二者叠加情景。",
+      "conclusions": "替代食物的选择改变暴露方向；在部分联合情景中，模拟汞摄入增幅最高486%。该数值不是观测到的人群摄入增长或疾病发生率。",
+      "implications": "Nexus评估需同时追踪资源可获得性、食物质量及社区文化选择。情景结果不能替代个体膳食建议，也不能把渔业变化全归因于单一气候机制。"
+    },
+    "status": "出版商摘要与正文已核对",
+    "source": "Nature Communications开放原文",
+    "added": "2026-11-27"
+  },
+  {
+    "id": "D011",
+    "title": "Copernicus EDO：欧洲综合干旱指标（CDI）",
+    "url": "https://drought.emergency.copernicus.eu/tumbo/edo/download/",
+    "year": 2026,
+    "journal": "欧盟JRC · Copernicus CEMS",
+    "categories": [
+      "数据资源"
+    ],
+    "datasetType": "公开数据集",
+    "tags": [
+      "Nexus",
+      "气候变化",
+      "粮食安全"
+    ],
+    "summary": "综合降水、土壤湿度和植被异常的欧洲干旱栅格数据，适合农业干旱暴露与资源风险分析，需保留版本及区域质量提示。",
+    "dataDetails": {
+      "提供机构与版本": "欧盟联合研究中心（JRC），Copernicus应急管理服务EDO；官方说明为CDI v4.1.1（2026年7月），下载器图层也可能显示v4.1。",
+      "覆盖与频率": "欧洲为主的研究域；2012年至今，每10天更新。产品边界框经度−25至51、纬度22至72，边界框不意味着每个栅格均有效。",
+      "分辨率与坐标": "1/24度，赤道附近约5公里；WGS84/EPSG:4326。",
+      "主要变量": "由SPI、土壤湿度异常和FAPAR异常结合前一期状态形成干旱及恢复类别；属于分类指标，不应直接当作作物减产率。",
+      "下载与许可": "官方门户免费提供数据，按年份、指标与可选格式下载；引用Copernicus EDO/JRC，并以门户使用条款及所选产品元数据为准，不将某张地图的许可推广到全部产品。",
+      "质量与适用边界": "官方提示自2025年5月中旬起，部分地区尤其东部域土壤湿度模型存在问题，CDI等相关指标须谨慎解释。适合区域干旱研究，必要时与SPI/SPEI交叉核查；未逐栅格验证。"
+    },
+    "links": [
+      {
+        "label": "官方指标说明（v4.1.1）",
+        "url": "https://drought.emergency.copernicus.eu/data/factsheets/factsheet_combinedDroughtIndicator_v4.pdf"
+      },
+      {
+        "label": "最新状态与质量提示",
+        "url": "https://joint-research-centre.ec.europa.eu/european-and-global-drought-observatories/current-drought-situation-europe_en"
+      },
+      {
+        "label": "门户使用条款",
+        "url": "https://drought.emergency.copernicus.eu/terms&conditions/"
+      }
+    ],
+    "status": "官方技术说明与下载入口已核对",
+    "added": "2026-11-27"
   }
 ]
